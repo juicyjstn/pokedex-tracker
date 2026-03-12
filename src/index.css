@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: apply .dark to <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Pixel-perfect sprite rendering */
+.image-rendering-pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
