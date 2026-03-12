@@ -42,9 +42,9 @@ export const rseConfig = {
     { id: 'emerald',  label: 'E', bg: 'bg-green-600' },
   ],
 
-  // Cover images (keys match version IDs; '' is the default/both cover)
+  // Cover images (keys match version IDs; '' is the default/all-versions cover)
   covers: {
-    '':         'cover-rse-both.jpg',
+    '':         'cover-rse-all.jpg',
     ruby:       'cover-ruby.jpg',
     sapphire:   'cover-sapphire.jpg',
     emerald:    'cover-emerald.jpg',
