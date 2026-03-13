@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import { GAMES } from '../games/index.js'
 import { usePokemonStore } from '../store/usePokemonStore'
+import { ShareCodeModal } from './ShareCodeModal'
 
 function loadProgress(key) {
   try {
@@ -17,6 +19,7 @@ const GAME_TOTALS = {
 
 export function HomeScreen() {
   const { loadGame, darkMode, toggleDarkMode } = usePokemonStore()
+  const [showImport, setShowImport] = useState(false)
   const base = import.meta.env.BASE_URL
 
   return (
@@ -111,6 +114,19 @@ export function HomeScreen() {
             )
           })}
         </div>
+
+        <div className="mt-6 text-center">
+          <button
+            onClick={() => setShowImport(true)}
+            className="text-sm text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 underline underline-offset-2 transition-colors"
+          >
+            Import a share code
+          </button>
+        </div>
+
+        {showImport && (
+          <ShareCodeModal mode="import" onClose={() => setShowImport(false)} />
+        )}
       </main>
     </div>
   )

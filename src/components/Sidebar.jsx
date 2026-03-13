@@ -1,9 +1,11 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { GAMES } from '../games/index.js'
 import { usePokemonStore } from '../store/usePokemonStore'
+import { ShareCodeModal } from './ShareCodeModal'
 
 export function Sidebar({ open, onClose }) {
-  const { gameConfig, loadGame } = usePokemonStore()
+  const { gameConfig, caughtIds, loadGame } = usePokemonStore()
+  const [shareModal, setShareModal] = useState(null) // null | 'export' | 'import'
   const base = import.meta.env.BASE_URL
 
   // Close on Escape key
@@ -82,8 +84,24 @@ export function Sidebar({ open, onClose }) {
           })}
         </nav>
 
-        {/* Footer: Home button */}
-        <div className="border-t border-gray-200 dark:border-gray-700 p-3">
+        {/* Footer */}
+        <div className="border-t border-gray-200 dark:border-gray-700 p-3 space-y-1">
+          {gameConfig && (
+            <button
+              onClick={() => { setShareModal('export'); onClose() }}
+              className="w-full flex items-center gap-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+            >
+              <span>📤</span>
+              <span>Export Code</span>
+            </button>
+          )}
+          <button
+            onClick={() => { setShareModal('import'); onClose() }}
+            className="w-full flex items-center gap-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
+          >
+            <span>📥</span>
+            <span>Import Code</span>
+          </button>
           <button
             onClick={() => { usePokemonStore.getState().goHome(); onClose() }}
             className="w-full flex items-center gap-2 px-3 py-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors"
@@ -93,6 +111,15 @@ export function Sidebar({ open, onClose }) {
           </button>
         </div>
       </aside>
+
+      {shareModal && (
+        <ShareCodeModal
+          mode={shareModal}
+          onClose={() => setShareModal(null)}
+          gameConfig={gameConfig}
+          caughtIds={caughtIds}
+        />
+      )}
     </>
   )
 }

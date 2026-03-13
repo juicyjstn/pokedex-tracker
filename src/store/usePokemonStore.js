@@ -17,7 +17,7 @@ const DATA_LOADERS = {
 
 const LS_DARK_KEY = 'dark-mode'
 
-function loadCaughtIds(key) {
+export function loadCaughtIds(key) {
   try {
     const raw = localStorage.getItem(key)
     return raw ? new Set(JSON.parse(raw)) : new Set()
@@ -109,6 +109,14 @@ export const usePokemonStore = create((set, get) => ({
     if (ids.has(id)) ids.delete(id); else ids.add(id)
     if (gameConfig) saveCaughtIds(gameConfig.localStorageKey, ids)
     set({ caughtIds: ids })
+  },
+
+  importCaughtIds(localStorageKey, newIds) {
+    saveCaughtIds(localStorageKey, newIds)
+    // Update in-memory state if the imported game is currently loaded
+    if (get().gameConfig?.localStorageKey === localStorageKey) {
+      set({ caughtIds: newIds })
+    }
   },
 
   toggleDarkMode() {
