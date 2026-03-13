@@ -96,7 +96,19 @@ export function LocationPanel() {
     if (!byLocation[enc.location]) byLocation[enc.location] = []
     byLocation[enc.location].push(enc)
   }
-  const locationGroups = Object.entries(byLocation).sort(([, aEncs], [, bEncs]) => {
+  const locationGroups = Object.entries(byLocation)
+  const filteredSet = new Set(
+    filterLocation
+      ? locationGroups
+          .filter(([loc, encs]) => loc === filterLocation || encs.some(e => e.area === filterLocation))
+          .map(([loc]) => loc)
+      : []
+  )
+  locationGroups.sort(([aLoc, aEncs], [bLoc, bEncs]) => {
+    const aFiltered = filteredSet.has(aLoc)
+    const bFiltered = filteredSet.has(bLoc)
+    if (aFiltered && !bFiltered) return -1
+    if (!aFiltered && bFiltered) return 1
     const aMin = Math.min(...aEncs.map(e => e.minLevel ?? Infinity))
     const bMin = Math.min(...bEncs.map(e => e.minLevel ?? Infinity))
     return aMin - bMin
@@ -272,10 +284,7 @@ export function LocationPanel() {
               {locationGroups.length > 0 ? (
                 <div className="space-y-2">
                   {locationGroups.map(([location, encs]) => {
-                    const isFiltered = filterLocation && (
-                      location === filterLocation ||
-                      encs.some(e => e.area === filterLocation)
-                    )
+                    const isFiltered = filterLocation && filteredSet.has(location)
                     return (
                     <div key={location} className={`rounded-lg border overflow-hidden ${isFiltered ? 'border-amber-400 dark:border-amber-500' : 'border-gray-100 dark:border-gray-700'}`}>
                       <div className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide flex items-center justify-between ${isFiltered ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400' : 'bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400'}`}>
