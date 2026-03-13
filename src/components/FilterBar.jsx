@@ -26,6 +26,7 @@ export function FilterBar({ totalCount, filteredCount }) {
     setFilterCaught, setFilterEggGroups, setSortBy, resetFilters,
   } = usePokemonStore()
 
+  const [filtersOpen, setFiltersOpen] = useState(false)
   const [eggGroupOpen, setEggGroupOpen] = useState(false)
   const eggDropRef = useRef(null)
 
@@ -91,8 +92,33 @@ export function FilterBar({ totalCount, filteredCount }) {
           </button>
         </div>
 
+        {/* Mobile filter toggle — only shown on small screens */}
+        <div className="flex items-center justify-between sm:hidden">
+          <button
+            onClick={() => setFiltersOpen(o => !o)}
+            className="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-1.5 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h8a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h4a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+            </svg>
+            Filters
+            {isFiltered && (
+              <span className="ml-1 w-2 h-2 rounded-full bg-blue-500 inline-block" />
+            )}
+            <span className={`text-[10px] transition-transform duration-150 ${filtersOpen ? 'rotate-180' : ''}`}>▼</span>
+          </button>
+
+          <div className="text-sm text-gray-500 dark:text-gray-400">
+            {isFiltered ? (
+              <span>{filteredCount} / {totalCount} shown</span>
+            ) : (
+              <span>{totalCount} Pokémon</span>
+            )}
+          </div>
+        </div>
+
         {/* Row 2: Search + Sort + count */}
-        <div className="flex gap-2 flex-wrap items-center">
+        <div className={`${filtersOpen ? 'flex' : 'hidden'} sm:flex gap-2 flex-wrap items-center`}>
           <input
             type="search"
             placeholder="Search name or #..."
@@ -133,7 +159,7 @@ export function FilterBar({ totalCount, filteredCount }) {
         </div>
 
         {/* Row 3: Filters */}
-        <div className="flex gap-2 flex-wrap items-center">
+        <div className={`${filtersOpen ? 'flex' : 'hidden'} sm:flex gap-2 flex-wrap items-center`}>
           <select
             value={filterType}
             onChange={e => setFilterType(e.target.value)}
