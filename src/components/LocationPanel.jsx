@@ -51,7 +51,7 @@ export function LocationPanel() {
   const {
     pokemon, selectedId, clearSelection,
     caughtIds, toggleCaught, selectPokemon, setFilterEggGroups,
-    gameConfig,
+    gameConfig, filterLocation,
     getPokemon: storePokemon,
     getEvolutionChain, getEvolutionLabel, evoStepLabel, evolutionDataFor,
   } = usePokemonStore()
@@ -271,10 +271,16 @@ export function LocationPanel() {
               )}
               {locationGroups.length > 0 ? (
                 <div className="space-y-2">
-                  {locationGroups.map(([location, encs]) => (
-                    <div key={location} className="rounded-lg border border-gray-100 dark:border-gray-700 overflow-hidden">
-                      <div className="bg-gray-50 dark:bg-gray-800 px-3 py-1.5 text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">
-                        {location}
+                  {locationGroups.map(([location, encs]) => {
+                    const isFiltered = filterLocation && (
+                      location === filterLocation ||
+                      encs.some(e => e.area === filterLocation)
+                    )
+                    return (
+                    <div key={location} className={`rounded-lg border overflow-hidden ${isFiltered ? 'border-amber-400 dark:border-amber-500' : 'border-gray-100 dark:border-gray-700'}`}>
+                      <div className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide flex items-center justify-between ${isFiltered ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400' : 'bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400'}`}>
+                        <span>{location}</span>
+                        {isFiltered && <span className="text-[10px] font-bold text-amber-600 dark:text-amber-400 ml-2">📍 Filtered</span>}
                       </div>
                       <table className="w-full text-xs">
                         <thead>
@@ -309,7 +315,8 @@ export function LocationPanel() {
                         </tbody>
                       </table>
                     </div>
-                  ))}
+                    )
+                  })}
                 </div>
               ) : !evoInfo ? (
                 <p className="text-sm text-gray-400 dark:text-gray-500 text-center py-4">
