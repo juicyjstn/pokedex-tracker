@@ -64,7 +64,7 @@ export const usePokemonStore = create((set, get) => ({
   searchQuery:    '',
   filterType:     '',
   filterLocation: '',
-  filterMethod:   '',
+  filterMethods:  [],
   filterVersion:  '',
   filterCaught:   '',
   filterEggGroups: [],
@@ -89,7 +89,7 @@ export const usePokemonStore = create((set, get) => ({
       loaded:      false,
       caughtIds:   loadCaughtIds(config.localStorageKey),
       dexView:     'regional',
-      searchQuery: '', filterType: '', filterLocation: '', filterMethod: '',
+      searchQuery: '', filterType: '', filterLocation: '', filterMethods: [],
       filterVersion: '', filterCaught: '', filterEggGroups: [],
       sortBy: 'id', selectedId: null,
     })
@@ -144,8 +144,18 @@ export const usePokemonStore = create((set, get) => ({
   setDexView(v)         { set({ dexView: v, selectedId: null }) },
   setSearch(q)          { set({ searchQuery: q }) },
   setFilterType(t)      { set({ filterType: t }) },
-  setFilterLocation(l)  { set({ filterLocation: l }) },
-  setFilterMethod(m)    { set({ filterMethod: m }) },
+  setFilterLocation(l)  {
+    set({ filterLocation: l })
+    // Prune filterMethods that aren't available at the new location
+    const available = get().getMethodsForLocation()
+    const avSet = new Set(available.map(m => m.method))
+    const { filterMethods } = get()
+    if (filterMethods.length > 0) {
+      const pruned = filterMethods.filter(m => avSet.has(m))
+      if (pruned.length !== filterMethods.length) set({ filterMethods: pruned })
+    }
+  },
+  setFilterMethods(m)   { set({ filterMethods: m }) },
   setFilterVersion(v)   { set({ filterVersion: v }) },
   setFilterCaught(c)    { set({ filterCaught: c }) },
   setFilterEggGroups(g) { set({ filterEggGroups: g }) },
@@ -155,7 +165,7 @@ export const usePokemonStore = create((set, get) => ({
 
   resetFilters() {
     set({
-      searchQuery: '', filterType: '', filterLocation: '', filterMethod: '',
+      searchQuery: '', filterType: '', filterLocation: '', filterMethods: [],
       filterVersion: '', filterCaught: '', filterEggGroups: [], sortBy: 'id',
     })
   },
@@ -192,9 +202,23 @@ export const usePokemonStore = create((set, get) => ({
     return pokemon
   },
 
+  getMethodsForLocation() {
+    const { pokemon, filterLocation, methods } = get()
+    if (!filterLocation) return methods
+    const available = new Set()
+    for (const p of pokemon) {
+      for (const e of p.encounters) {
+        if (e.location === filterLocation || e.area === filterLocation) {
+          available.add(e.method)
+        }
+      }
+    }
+    return methods.filter(m => available.has(m.method))
+  },
+
   getFiltered() {
     const {
-      caughtIds, searchQuery, filterType, filterLocation, filterMethod,
+      caughtIds, searchQuery, filterType, filterLocation, filterMethods,
       filterVersion, filterCaught, filterEggGroups, sortBy, gameConfig, gameModules,
     } = get()
     const base = get().getActivePokemon()
@@ -206,12 +230,12 @@ export const usePokemonStore = create((set, get) => ({
         if (!p.name.includes(q) && !numMatch) return false
       }
       if (filterType && !p.types.includes(filterType)) return false
-      if (filterLocation) {
-        const has = p.encounters.some(e => e.location === filterLocation || e.area === filterLocation)
-        if (!has) return false
-      }
-      if (filterMethod) {
-        const has = p.encounters.some(e => e.method === filterMethod)
+      if (filterLocation || filterMethods.length > 0) {
+        const has = p.encounters.some(e => {
+          const locOk = !filterLocation || e.location === filterLocation || e.area === filterLocation
+          const methOk = filterMethods.length === 0 || filterMethods.includes(e.method)
+          return locOk && methOk
+        })
         if (!has) return false
       }
       if (filterVersion) {

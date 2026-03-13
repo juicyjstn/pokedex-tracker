@@ -21,26 +21,31 @@ export function FilterBar({ totalCount, filteredCount }) {
   const {
     gameConfig,
     dexView, setDexView,
-    searchQuery, filterType, filterLocation, filterMethod, filterVersion, filterCaught, filterEggGroups, sortBy,
-    locations, methods, setSearch, setFilterType, setFilterLocation, setFilterMethod, setFilterVersion,
-    setFilterCaught, setFilterEggGroups, setSortBy, resetFilters,
+    searchQuery, filterType, filterLocation, filterMethods, filterVersion, filterCaught, filterEggGroups, sortBy,
+    locations, setSearch, setFilterType, setFilterLocation, setFilterMethods, setFilterVersion,
+    setFilterCaught, setFilterEggGroups, setSortBy, resetFilters, getMethodsForLocation,
   } = usePokemonStore()
 
   const [eggGroupOpen, setEggGroupOpen] = useState(false)
+  const [methodOpen, setMethodOpen] = useState(false)
   const [filtersOpen, setFiltersOpen] = useState(() => window.innerWidth >= 640)
   const eggDropRef = useRef(null)
+  const methodDropRef = useRef(null)
 
-  // Close egg group dropdown when clicking outside
+  // Close dropdowns when clicking outside
   useEffect(() => {
-    if (!eggGroupOpen) return
+    if (!eggGroupOpen && !methodOpen) return
     function handleClick(e) {
-      if (eggDropRef.current && !eggDropRef.current.contains(e.target)) {
+      if (eggGroupOpen && eggDropRef.current && !eggDropRef.current.contains(e.target)) {
         setEggGroupOpen(false)
+      }
+      if (methodOpen && methodDropRef.current && !methodDropRef.current.contains(e.target)) {
+        setMethodOpen(false)
       }
     }
     document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
-  }, [eggGroupOpen])
+  }, [eggGroupOpen, methodOpen])
 
   function toggleEggGroup(g) {
     const next = filterEggGroups.includes(g)
@@ -49,12 +54,26 @@ export function FilterBar({ totalCount, filteredCount }) {
     setFilterEggGroups(next)
   }
 
+  function toggleMethod(m) {
+    const next = filterMethods.includes(m)
+      ? filterMethods.filter(x => x !== m)
+      : [...filterMethods, m]
+    setFilterMethods(next)
+  }
+
+  const availableMethods = getMethodsForLocation()
+
+  const methodLabel =
+    filterMethods.length === 0 ? 'All Methods'
+    : filterMethods.length === 1 ? (availableMethods.find(m => m.method === filterMethods[0])?.methodDisplay ?? filterMethods[0])
+    : `${filterMethods.length} Methods`
+
   const eggGroupLabel =
     filterEggGroups.length === 0 ? 'Egg Group'
     : filterEggGroups.length === 1 ? formatEggGroup(filterEggGroups[0])
     : `${filterEggGroups.length} Groups`
 
-  const isFiltered = searchQuery || filterType || filterLocation || filterMethod || filterVersion || filterCaught || filterEggGroups.length > 0
+  const isFiltered = searchQuery || filterType || filterLocation || filterMethods.length > 0 || filterVersion || filterCaught || filterEggGroups.length > 0
 
   if (!gameConfig) return null
 
@@ -192,16 +211,38 @@ export function FilterBar({ totalCount, filteredCount }) {
             ))}
           </select>
 
-          <select
-            value={filterMethod}
-            onChange={e => setFilterMethod(e.target.value)}
-            className="border border-gray-300 dark:border-gray-600 rounded-lg px-2 py-1.5 text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
-          >
-            <option value="">All Methods</option>
-            {methods.map(({ method, methodDisplay }) => (
-              <option key={method} value={method}>{methodDisplay}</option>
-            ))}
-          </select>
+          {/* Method multiselect dropdown */}
+          <div className="relative" ref={methodDropRef}>
+            <button
+              onClick={() => setMethodOpen(o => !o)}
+              className={`flex items-center gap-1.5 border rounded-lg px-2 py-1.5 text-sm transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400
+                ${filterMethods.length > 0
+                  ? 'border-blue-400 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300'
+                  : 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'}`}
+            >
+              <span className="whitespace-nowrap">{methodLabel}</span>
+              <span className={`text-[10px] transition-transform duration-150 ${methodOpen ? 'rotate-180' : ''}`}>▼</span>
+            </button>
+
+            {methodOpen && (
+              <div className="absolute top-full left-0 mt-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl z-50 py-1 min-w-[160px] max-h-64 overflow-y-auto">
+                {availableMethods.map(({ method, methodDisplay }) => (
+                  <label
+                    key={method}
+                    className="flex items-center gap-2 px-3 py-1.5 hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer select-none"
+                  >
+                    <input
+                      type="checkbox"
+                      checked={filterMethods.includes(method)}
+                      onChange={() => toggleMethod(method)}
+                      className="w-3.5 h-3.5 accent-blue-500 shrink-0"
+                    />
+                    <span className="text-sm text-gray-700 dark:text-gray-200">{methodDisplay}</span>
+                  </label>
+                ))}
+              </div>
+            )}
+          </div>
 
           {/* Egg group multiselect dropdown */}
           <div className="relative" ref={eggDropRef}>
