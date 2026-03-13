@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T20:21:58.451Z",
+  "generatedAt": "2026-03-13T17:55:19.039Z",
   "kantoCount": 151,
   "nationalCount": 60,
   "locations": [
@@ -171,6 +171,12 @@
         "firered": "There is a plant seed on its back right from the day this POKéMON is born. The seed slowly grows larger.",
         "leafgreen": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "plant"
@@ -344,6 +350,12 @@
         "firered": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
         "leafgreen": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "plant"
@@ -516,6 +528,12 @@
         "firered": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
         "leafgreen": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "plant"
@@ -716,6 +734,12 @@
         "firered": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
         "leafgreen": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -905,6 +929,12 @@
         "firered": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
         "leafgreen": "When it swings its burning tail, it elevates the air temperature to unbearably high levels."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -1090,6 +1120,12 @@
         "firered": "Its wings can carry this POKéMON close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
         "leafgreen": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -1319,6 +1355,12 @@
         "firered": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
         "leafgreen": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -1510,6 +1552,12 @@
         "firered": "This POKéMON is very popular as a pet. Its fur-covered tail is a symbol of its longevity.",
         "leafgreen": "It often hides in water to stalk unwary prey. For fast swimming, it moves its ears to maintain balance."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -1700,6 +1748,12 @@
         "firered": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
         "leafgreen": "The pressurized water jets on this brutal POKéMON’s shell are used for high- speed tackles."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -1958,6 +2012,12 @@
         "firered": "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.",
         "leafgreen": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
       },
+      "abilities": [
+        {
+          "name": "Shield Dust",
+          "description": "Prevents added effects."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2042,6 +2102,12 @@
         "firered": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
         "leafgreen": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2086,6 +2152,12 @@
         "firered": "The wings are protected by rain-repellent dust. As a result, this POKéMON can fly about even in rain.",
         "leafgreen": "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
       },
+      "abilities": [
+        {
+          "name": "Compound Eyes",
+          "description": "Raises accuracy."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2311,6 +2383,12 @@
         "firered": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
         "leafgreen": "Often found in forests, eating leaves. It has a sharp stinger on its head that injects poison."
       },
+      "abilities": [
+        {
+          "name": "Shield Dust",
+          "description": "Prevents added effects."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2396,6 +2474,12 @@
         "firered": "This POKéMON is in a temporary stage while making its body. It is almost completely unable to move on its own.",
         "leafgreen": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself when it is in danger."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2440,6 +2524,12 @@
         "firered": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
         "leafgreen": "It flies at high speed and attacks using the large venomous stingers on its forelegs and tail."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -2759,6 +2849,16 @@
         "firered": "Does not like to fight. It hides in tall grass and so on, foraging for food such as small bugs.",
         "leafgreen": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Doubles evasion when confused."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -2967,6 +3067,16 @@
         "firered": "The claws on its feet are well developed. It can carry prey such as an EXEGGCUTE to its nest over 60 miles away.",
         "leafgreen": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Doubles evasion when confused."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -3116,6 +3226,16 @@
         "firered": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
         "leafgreen": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Doubles evasion when confused."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -3393,6 +3513,16 @@
         "firered": "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
         "leafgreen": "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -3644,6 +3774,16 @@
         "firered": "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers.",
         "leafgreen": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -4003,6 +4143,12 @@
         "firered": "It busily flits around here and there. Even if it is frail, it can be a tough foe that uses MIRROR MOVE.",
         "leafgreen": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -4263,6 +4409,12 @@
         "firered": "Its huge and magnificent wings can keep it aloft in the sky. It can remain flying a whole day without landing.",
         "leafgreen": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -4472,6 +4624,16 @@
         "firered": "A very common sight in grassland, etc. It flicks its tongue in and out to sense danger in its surroundings.",
         "leafgreen": "Moving silently and stealthily, it eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "ground",
         "dragon"
@@ -4690,6 +4852,16 @@
         "firered": "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
         "leafgreen": "It is rumored that the ferocious warning markings on its belly differ from area to area."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "ground",
         "dragon"
@@ -4904,6 +5076,12 @@
         "firered": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
         "leafgreen": "When several of these POKéMON gather, their electricity can build and cause lightning storms."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -5083,6 +5261,12 @@
         "firered": "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
         "leafgreen": "Its long tail serves as a ground to protect itself from its own high-voltage power."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -5303,6 +5487,12 @@
         "firered": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection.",
         "leafgreen": "Burrows deep underground in arid locations far from water. It only emerges to hunt for prey."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -5526,6 +5716,12 @@
         "firered": "It is adept at attacking with the spines on its back and its sharp claws while quickly scurrying about.",
         "leafgreen": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -5762,6 +5958,16 @@
         "firered": "Though small, it must be treated with caution because of its powerfully toxic barbs. The female has smaller horns.",
         "leafgreen": "Although small, its venomous barbs render this POKéMON dangerous. The female has smaller horns."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -5998,6 +6204,16 @@
         "firered": "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
         "leafgreen": "The female’s horns develop slowly. Prefers physical attacks such as clawing and biting."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -6185,6 +6401,16 @@
         "firered": "The body is covered by stiff, needle- like scales. If it becomes excited, the needles bristle outwards.",
         "leafgreen": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -6462,6 +6688,16 @@
         "firered": "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
         "leafgreen": "It stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -6694,6 +6930,16 @@
         "firered": "It is easily angered. By swinging its well- developed horn wildly, it can even punch through diamond.",
         "leafgreen": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -6878,6 +7124,16 @@
         "firered": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom.",
         "leafgreen": "It uses its powerful tail in battle to smash, constrict, then break the prey’s bones."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Rivalry",
+          "description": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -7122,6 +7378,16 @@
         "firered": "Its adorable appearance makes it popular as a pet. However, it is rare and difficult to find.",
         "leafgreen": "With its magical and cute appeal, it has many admirers. It is rare and found only in certain areas."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Magic Guard",
+          "description": "Protects against damage not directly caused by a move."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -7359,6 +7625,16 @@
         "firered": "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
         "leafgreen": "A timid fairy POKéMON that is rarely seen, it will run and hide the moment it senses people."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Magic Guard",
+          "description": "Protects against damage not directly caused by a move."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -7625,6 +7901,12 @@
         "firered": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
         "leafgreen": "When it is born, it has just one snow- white tail. The tail splits from its tip as it grows older."
       },
+      "abilities": [
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -7791,6 +8073,12 @@
         "firered": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
         "leafgreen": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
       },
+      "abilities": [
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -7939,6 +8227,16 @@
         "firered": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
         "leafgreen": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Competitive",
+          "description": "Raises Special Attack by two stages upon having any stat lowered."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -8158,6 +8456,16 @@
         "firered": "Its fur is extremely fine, dense, and supple. The exquisitely pleasant fur conveys an image of luxury.",
         "leafgreen": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Competitive",
+          "description": "Raises Special Attack by two stages upon having any stat lowered."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -8625,6 +8933,12 @@
         "firered": "It has no eyes. Instead, it relies on its ultrasonic cries for echo location to flit about in darkness.",
         "leafgreen": "It forms colonies in perpetually dark places and uses ultrasonic waves to identify and approach targets."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -9058,6 +9372,12 @@
         "firered": "It clamps down on its prey with needle- sharp fangs and drains over 10 ounces of blood in one gulp.",
         "leafgreen": "Once it bites, it will not stop draining energy from the victim even if it gets too heavy to fly."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -9370,6 +9690,12 @@
         "firered": "Its scientific name is “Oddium Wanderus.” At night, it is said to walk nearly 1,000 feet on its two roots.",
         "leafgreen": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -9600,6 +9926,12 @@
         "firered": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
         "leafgreen": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -9750,6 +10082,12 @@
         "firered": "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals.",
         "leafgreen": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -9936,6 +10274,16 @@
         "firered": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host.",
         "leafgreen": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
       },
+      "abilities": [
+        {
+          "name": "Effect Spore",
+          "description": "Leaves spores on contact."
+        },
+        {
+          "name": "Dry Skin",
+          "description": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+        }
+      ],
       "eggGroups": [
         "bug",
         "plant"
@@ -10161,6 +10509,16 @@
         "firered": "It scatters toxic spores from the mushroom cap. In China, the spores are used as herbal medicine.",
         "leafgreen": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
       },
+      "abilities": [
+        {
+          "name": "Effect Spore",
+          "description": "Leaves spores on contact."
+        },
+        {
+          "name": "Dry Skin",
+          "description": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+        }
+      ],
       "eggGroups": [
         "bug",
         "plant"
@@ -10419,6 +10777,16 @@
         "firered": "Its eyes act as radar, enabling it to be active in darkness. The eyes can also shoot powerful beams.",
         "leafgreen": "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night."
       },
+      "abilities": [
+        {
+          "name": "Compound Eyes",
+          "description": "Raises accuracy."
+        },
+        {
+          "name": "Tinted Lens",
+          "description": "Doubles damage inflicted with not-very-effective moves."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -10612,6 +10980,16 @@
         "firered": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
         "leafgreen": "The dustlike scales covering its wings are color-coded to indicate the kinds of poison it has."
       },
+      "abilities": [
+        {
+          "name": "Shield Dust",
+          "description": "Prevents added effects."
+        },
+        {
+          "name": "Tinted Lens",
+          "description": "Doubles damage inflicted with not-very-effective moves."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -10799,6 +11177,16 @@
         "firered": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
         "leafgreen": "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        },
+        {
+          "name": "Arena Trap",
+          "description": "Prevents fleeing."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -10976,6 +11364,16 @@
         "firered": "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
         "leafgreen": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        },
+        {
+          "name": "Arena Trap",
+          "description": "Prevents fleeing."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -11281,6 +11679,16 @@
         "firered": "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
         "leafgreen": "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        },
+        {
+          "name": "Technician",
+          "description": "Strengthens moves of 60 base power or less to 1.5× their power."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -11565,6 +11973,16 @@
         "firered": "Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite.",
         "leafgreen": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
       },
+      "abilities": [
+        {
+          "name": "Limber",
+          "description": "Prevents paralysis."
+        },
+        {
+          "name": "Technician",
+          "description": "Strengthens moves of 60 base power or less to 1.5× their power."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -12594,6 +13012,16 @@
         "firered": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
         "leafgreen": "While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Negates weather effects."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -12900,6 +13328,16 @@
         "firered": "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc.",
         "leafgreen": "Often seen swimming elegantly by lakeshores. It is often mistaken for the Japanese monster Kappa."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Negates weather effects."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -13159,6 +13597,16 @@
         "firered": "Light and agile on its feet, and ferocious in temperament. When angered, it flies into an uncontrollable frenzy.",
         "leafgreen": "Extremely quick to anger. It could be docile one moment, then thrashing away the next instant."
       },
+      "abilities": [
+        {
+          "name": "Vital Spirit",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Anger Point",
+          "description": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -13398,6 +13846,16 @@
         "firered": "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far.",
         "leafgreen": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it catches up."
       },
+      "abilities": [
+        {
+          "name": "Vital Spirit",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Anger Point",
+          "description": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -13674,6 +14132,16 @@
         "firered": "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
         "leafgreen": "It is very protective of its territory. It will bark and bite to repel intruders from its space."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -13847,6 +14315,16 @@
         "firered": "A POKéMON that is described in Chinese legends. It is said to race at an unbelievable speed.",
         "leafgreen": "A POKéMON that has long been admired for its beauty. It runs agilely as if on wings."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -14277,6 +14755,16 @@
         "firered": "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
         "leafgreen": "Its newly grown legs prevent it from walking well. It appears to prefer swimming over walking."
       },
+      "abilities": [
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        },
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -14549,6 +15037,16 @@
         "firered": "Its two legs are well developed. Even though it can live on the ground, it prefers living in water.",
         "leafgreen": "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy."
       },
+      "abilities": [
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        },
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -14736,6 +15234,16 @@
         "firered": "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
         "leafgreen": "A swimmer adept at both the front crawl and breaststroke. Easily overtakes the best human swimmers."
       },
+      "abilities": [
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        },
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -14939,6 +15447,16 @@
         "firered": "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep.",
         "leafgreen": "Using its ability to read minds, it will sense impending danger and TELEPORT to safety."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -15127,6 +15645,16 @@
         "firered": "It happened one morning - a boy with extrasensory powers awoke in bed transformed into KADABRA.",
         "leafgreen": "It emits special alpha waves from its body that induce headaches just by being close."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -15331,6 +15859,16 @@
         "firered": "It does not like physical attacks very much. Instead, it freely uses extra­ sensory powers to defeat foes.",
         "leafgreen": "Its brain can outperform a supercomputer. Its IQ (intelligence quotient) is said to be around 5,000."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -15630,6 +16168,16 @@
         "firered": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
         "leafgreen": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "No Guard",
+          "description": "Ensures all moves used by and against the Pokémon hit."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -15906,6 +16454,16 @@
         "firered": "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
         "leafgreen": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "No Guard",
+          "description": "Ensures all moves used by and against the Pokémon hit."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -16097,6 +16655,16 @@
         "firered": "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
         "leafgreen": "Its superpowerful punches are said to knock the victim flying clear over the horizon."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "No Guard",
+          "description": "Ensures all moves used by and against the Pokémon hit."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -16424,6 +16992,12 @@
         "firered": "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
         "leafgreen": "A carnivorous POKéMON that traps and eats bugs. It appears to use its root feet to replenish moisture."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -16667,6 +17241,12 @@
         "firered": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
         "leafgreen": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -16829,6 +17409,12 @@
         "firered": "Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid.",
         "leafgreen": "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -17267,6 +17853,16 @@
         "firered": "Its eyes are as transparent as crystals. From them, it shoots mysterious beams of light.",
         "leafgreen": "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -17587,6 +18183,16 @@
         "firered": "It has 80 tentacles that move about freely. They can sting, causing poisoning and sharp, stabbing pain.",
         "leafgreen": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -18032,6 +18638,16 @@
         "firered": "Its round form makes it easy to pick up. Some people have used them to hurl at each other in a snowball fight.",
         "leafgreen": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -18333,6 +18949,16 @@
         "firered": "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing.",
         "leafgreen": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -18517,6 +19143,16 @@
         "firered": "It is enclosed in a hard shell that is as rugged as slabs of rock. It sheds skin once a year to grow larger.",
         "leafgreen": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without taking damage."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -18730,6 +19366,16 @@
         "firered": "Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap.",
         "leafgreen": "Its hooves are ten times harder than diamond. It can trample anything completely flat in little time."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -18907,6 +19553,16 @@
         "firered": "It can gallop at a top speed of 150 miles per hour. It can race as fast as a bullet train while ablaze.",
         "leafgreen": "Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -19908,6 +20564,16 @@
         "firered": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
         "leafgreen": "Incredibly slow and dopey. It takes five seconds for it to feel pain when under attack."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -20242,6 +20908,16 @@
         "firered": "When a SLOWPOKE went hunting in the sea, its tail was bitten by a SHELLDER. That made it evolve into SLOWBRO.",
         "leafgreen": "The SHELLDER that latches onto SLOWPOKE’s tail is said to feed on the host’s leftover scraps."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -20486,6 +21162,16 @@
         "firered": "It moves while constantly hovering. It discharges THUNDER WAVE and so on from the units at its sides.",
         "leafgreen": "Uses antigravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves."
       },
+      "abilities": [
+        {
+          "name": "Magnet Pull",
+          "description": "Traps STEEL-type POKéMON."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -20677,6 +21363,16 @@
         "firered": "A linked cluster formed of several MAGNEMITE. It discharges powerful magnetic waves at high voltage.",
         "leafgreen": "Formed by several MAGNEMITE linked together. They frequently appear when sunspots flare up."
       },
+      "abilities": [
+        {
+          "name": "Magnet Pull",
+          "description": "Traps STEEL-type POKéMON."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -20851,6 +21547,16 @@
         "firered": "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
         "leafgreen": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "flying",
         "ground"
@@ -21063,6 +21769,16 @@
         "firered": "A two-headed POKéMON that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
         "leafgreen": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -21208,6 +21924,16 @@
         "firered": "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
         "leafgreen": "Uses its three brains to execute complex plans. While two heads sleep, one head is said to stay awake."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -21476,6 +22202,16 @@
         "firered": "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of minus 40 degrees Fahrenheit.",
         "leafgreen": "The protruding horn on its head is very hard. It is used for bashing through thick icebergs."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Hydration",
+          "description": "Cures any major status ailment after each turn during rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -21707,6 +22443,16 @@
         "firered": "Its body is covered with a pure white fur. The colder the weather, the more active it becomes.",
         "leafgreen": "It stores thermal energy in the body. It swims at a steady eight knots even in intensely cold waters."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Hydration",
+          "description": "Cures any major status ailment after each turn during rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -21932,6 +22678,16 @@
         "firered": "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things.",
         "leafgreen": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories."
       },
+      "abilities": [
+        {
+          "name": "Stench",
+          "description": "Helps repel wild POKéMON."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "Prevents item theft."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -22158,6 +22914,16 @@
         "firered": "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning.",
         "leafgreen": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
       },
+      "abilities": [
+        {
+          "name": "Stench",
+          "description": "Helps repel wild POKéMON."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "Prevents item theft."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -22430,6 +23196,16 @@
         "firered": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
         "leafgreen": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
       },
+      "abilities": [
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        },
+        {
+          "name": "Skill Link",
+          "description": "Extends two-to-five-hit moves and triple kick to their full length every time."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -22579,6 +23355,16 @@
         "firered": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
         "leafgreen": "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
       },
+      "abilities": [
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        },
+        {
+          "name": "Skill Link",
+          "description": "Extends two-to-five-hit moves and triple kick to their full length every time."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -22878,6 +23664,12 @@
         "firered": "A being that exists as a thin gas. It can topple an Indian elephant by enveloping the prey in two seconds.",
         "leafgreen": "Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -23221,6 +24013,12 @@
         "firered": "If you get the feeling of being watched in darkness when nobody is around, HAUNTER is there.",
         "leafgreen": "Because of its ability to slip through block walls, it is said to be from another dimension."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -23403,6 +24201,12 @@
         "firered": "It is said to emerge from darkness to steal the lives of those who become lost in mountains.",
         "leafgreen": "On the night of a full moon, if shadows move on their own and laugh, it must be GENGAR’s doing."
       },
+      "abilities": [
+        {
+          "name": "Cursed Body",
+          "description": "Has a 30% chance of Disabling any move that hits the Pokémon."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -23677,6 +24481,16 @@
         "firered": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
         "leafgreen": "As it grows, the stone portions of its body harden to become similar to black-colored diamonds."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -23878,6 +24692,16 @@
         "firered": "A descendent of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism.",
         "leafgreen": "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Forewarn",
+          "description": "Reveals the opponents' strongest move upon entering battle."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -24102,6 +24926,16 @@
         "firered": "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized.",
         "leafgreen": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Forewarn",
+          "description": "Reveals the opponents' strongest move upon entering battle."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -24955,6 +25789,16 @@
         "firered": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
         "leafgreen": "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -25324,6 +26168,16 @@
         "firered": "Its large and hard pincer has 10,000- horsepower strength. However, being so big, it is unwieldy to move.",
         "leafgreen": "The large pincer has 10,000-horsepower crushing force. However, its huge size makes it unwieldy to use."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -25535,6 +26389,16 @@
         "firered": "A life-form whose identity is unknown. It is said to SCREECH or suddenly SELFDESTRUCT.",
         "leafgreen": "Usually found in power plants. Easily mistaken for a POKé BALL, it has zapped many people."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        },
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -25733,6 +26597,16 @@
         "firered": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”",
         "leafgreen": "It stores electric energy under very high pressure. It often explodes with little or no provocation."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        },
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -25954,6 +26828,12 @@
         "firered": "Even though it appears to be eggs of some sort, it was discovered to be a life- form more like plant seeds.",
         "leafgreen": "It is often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -26133,6 +27013,12 @@
         "firered": "It is called “The Walking Tropical Rainforest.” Each of the nuts has a face and a will of its own.",
         "leafgreen": "It is said that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -26348,6 +27234,16 @@
         "firered": "It wears the skull of its dead mother on its head. When it becomes lonesome, it is said to cry loudly.",
         "leafgreen": "Because it never removes its skull helmet, no one has ever seen this POKéMON’s real face."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -26596,6 +27492,16 @@
         "firered": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones.",
         "leafgreen": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -26823,6 +27729,16 @@
         "firered": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
         "leafgreen": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra-long, loping strides."
       },
+      "abilities": [
+        {
+          "name": "Limber",
+          "description": "Prevents paralysis."
+        },
+        {
+          "name": "Reckless",
+          "description": "Strengthens recoil moves to 1.2× their power."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -27014,6 +27930,16 @@
         "firered": "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
         "leafgreen": "While apparently doing nothing, it fires punches in lightning-fast volleys that are impossible to see."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Iron Fist",
+          "description": "Strengthens punch-based moves to 1.2× their power."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -27189,6 +28115,16 @@
         "firered": "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
         "leafgreen": "Its tongue can be extended like a chameleon’s. It leaves a tingling sensation when it licks enemies."
       },
+      "abilities": [
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        },
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -27477,6 +28413,16 @@
         "firered": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
         "leafgreen": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "description": "Neutralizes abilities of all Pokémon in battle."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -27697,6 +28643,16 @@
         "firered": "Very rarely, a sudden mutation can result in two small KOFFING twins becoming conjoined as a WEEZING.",
         "leafgreen": "Where two kinds of poison gases meet, two KOFFING can fuse into a WEEZING over many years."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "description": "Neutralizes abilities of all Pokémon in battle."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -27903,6 +28859,16 @@
         "firered": "Strong, but not too bright, this POKéMON can shatter even a skyscraper with its charging TACKLES.",
         "leafgreen": "Its massive bones are 1,000 times harder than human bones. Its TACKLE can knock a semitrailer flying."
       },
+      "abilities": [
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -28110,6 +29076,16 @@
         "firered": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
         "leafgreen": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit."
       },
+      "abilities": [
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -28359,6 +29335,16 @@
         "firered": "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious.",
         "leafgreen": "A rare and elusive POKéMON that is said to bring happiness to those who manage to catch one."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        },
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -28639,6 +29625,16 @@
         "firered": "Blue plant vines cloak the POKéMON’s identity in a tangled mass. It entangles anything that gets close.",
         "leafgreen": "The whole body is swathed with wide vines that are similar to seaweed. The vines sway as it walks."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -28838,6 +29834,16 @@
         "firered": "The female raises its offspring in a pouch on its belly. It is skilled at attacking using COMET PUNCH.",
         "leafgreen": "The infant rarely ventures out of its mother’s protective pouch until it is three years old."
       },
+      "abilities": [
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        },
+        {
+          "name": "Scrappy",
+          "description": "Lets the Pokémon's normal and fighting moves hit ghost Pokémon."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -29726,6 +30732,16 @@
         "firered": "It maintains balance using its tail, which is wound up like a coil. It may spray ink from its mouth.",
         "leafgreen": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -30076,6 +31092,16 @@
         "firered": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
         "leafgreen": "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -30464,6 +31490,16 @@
         "firered": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
         "leafgreen": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of “The Water Queen.”"
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -30683,6 +31719,16 @@
         "firered": "The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest.",
         "leafgreen": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -30914,6 +31960,16 @@
         "firered": "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
         "leafgreen": "An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle."
       },
+      "abilities": [
+        {
+          "name": "Illuminate",
+          "description": "Encounter rate increases."
+        },
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -31092,6 +32148,16 @@
         "firered": "This POKéMON has a geometric body. Because of its body, the locals suspect that it is an alien creature.",
         "leafgreen": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
       },
+      "abilities": [
+        {
+          "name": "Illuminate",
+          "description": "Encounter rate increases."
+        },
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -31262,6 +32328,16 @@
         "firered": "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
         "leafgreen": "If interrupted while it is miming, it will suddenly DOUBLESLAP the offender with its broad hands."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        },
+        {
+          "name": "Filter",
+          "description": "Decreases damage taken from super-effective moves by 1/4."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -31527,6 +32603,16 @@
         "firered": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
         "leafgreen": "With ninja-like agility and speed, it can create the illusion that there is more than one of itself."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Technician",
+          "description": "Strengthens moves of 60 base power or less to 1.5× their power."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -31707,6 +32793,16 @@
         "firered": "It speaks using a language that sounds human. Research is under way to determine what is being said.",
         "leafgreen": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Forewarn",
+          "description": "Reveals the opponents' strongest move upon entering battle."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -31929,6 +33025,12 @@
         "firered": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
         "leafgreen": "Normally found near power plants, they can wander away and cause major blackouts in cities."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -32118,6 +33220,12 @@
         "firered": "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit.",
         "leafgreen": "Its body always burns with an orange glow that enables it to hide perfectly amidst flames."
       },
+      "abilities": [
+        {
+          "name": "Flame Body",
+          "description": "Burns the foe on contact."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -32316,6 +33424,16 @@
         "firered": "Its two long pincer horns are powerful. Once they grip an enemy, they won’t release until the foe is torn.",
         "leafgreen": "If it fails to crush the foe in its pincers, it will swing around and toss the opponent."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Mold Breaker",
+          "description": "Bypasses targets' abilities if they could hinder or prevent a move."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -32529,6 +33647,16 @@
         "firered": "When it is about to TACKLE, it whips its body repeatedly with its three long tails.",
         "leafgreen": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Anger Point",
+          "description": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -33737,6 +34865,12 @@
         "firered": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic POKéMON in the world.",
         "leafgreen": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water2",
         "dragon"
@@ -34227,6 +35361,12 @@
         "firered": "It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.",
         "leafgreen": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        }
+      ],
       "eggGroups": [
         "water2",
         "dragon"
@@ -34445,6 +35585,16 @@
         "firered": "Its high intelligence enables it to understand human speech. It likes to ferry people on its back.",
         "leafgreen": "A POKéMON that has been overhunted almost to extinction. It can ferry people on its back."
       },
+      "abilities": [
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -34724,6 +35874,12 @@
         "firered": "It can freely recombine its own cellular structure to transform into other life- forms.",
         "leafgreen": "Capable of copying an opponent’s genetic code to instantly transform itself into a duplicate of the enemy."
       },
+      "abilities": [
+        {
+          "name": "Limber",
+          "description": "Prevents paralysis."
+        }
+      ],
       "eggGroups": [
         "ditto"
       ],
@@ -34775,6 +35931,16 @@
         "firered": "An extremely rare POKéMON that may evolve in a number of different ways depending on stimuli.",
         "leafgreen": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONES."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Adaptability",
+          "description": "Increases the same-type attack bonus from 1.5× to 2×."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -34919,6 +36085,12 @@
         "firered": "Its body’s cellular structure is similar to the molecular composition of water. It can melt invisibly in water.",
         "leafgreen": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid’s."
       },
+      "abilities": [
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -35096,6 +36268,12 @@
         "firered": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
         "leafgreen": "It accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts."
       },
+      "abilities": [
+        {
+          "name": "Volt Absorb",
+          "description": "Turns electricity into HP."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -35266,6 +36444,12 @@
         "firered": "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,100 degrees Fahrenheit.",
         "leafgreen": "When storing thermal energy in its body, its temperature can soar to over 1,600 degrees Fahrenheit."
       },
+      "abilities": [
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -35443,6 +36627,16 @@
         "firered": "Using the most advanced technologies, scientists finally succeeded in making the first artificial POKéMON.",
         "leafgreen": "A POKéMON that consists entirely of programming code. It is capable of moving freely in cyberspace."
       },
+      "abilities": [
+        {
+          "name": "Trace",
+          "description": "Copies special ability."
+        },
+        {
+          "name": "Download",
+          "description": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -35649,6 +36843,16 @@
         "firered": "A prehistoric POKéMON that lived in the primordial sea, it swims by twisting its 10 tentacles about.",
         "leafgreen": "Although long extinct, in rare cases, it can be genetically regenerated from fossils."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -35825,6 +37029,16 @@
         "firered": "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites.",
         "leafgreen": "Despite having strong fangs and tentacles, it went extinct when its heavy shell made it unable to catch prey."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -36033,6 +37247,16 @@
         "firered": "This POKéMON was regenerated from the fossil of an ancient creature. It protects itself with a hard shell.",
         "leafgreen": "A POKéMON that was regenerated from a fossil found in what was once the ocean floor long ago."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Battle Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -36221,6 +37445,16 @@
         "firered": "It swims freely through water. It catches prey with its scythe-like arms and drains the victim’s fluids.",
         "leafgreen": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains their fluids."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Battle Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -36455,6 +37689,16 @@
         "firered": "It was regenerated from a dinosaur’s genetic matter that was found in amber. It flies with high-pitched cries.",
         "leafgreen": "A ferocious, prehistoric POKéMON that goes for the enemy’s throat with its serrated, sawlike fangs."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -36672,6 +37916,16 @@
         "firered": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
         "leafgreen": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
       },
+      "abilities": [
+        {
+          "name": "Immunity",
+          "description": "Prevents poisoning."
+        },
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -36919,6 +38173,12 @@
         "firered": "One of the legendary bird POKéMON. With its long tail trailing behind, its flying form is magnificent.",
         "leafgreen": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -37100,6 +38360,12 @@
         "firered": "One of the legendary bird POKéMON. While it is flying, it makes crackling and snapping sounds.",
         "leafgreen": "A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -37282,6 +38548,12 @@
         "firered": "One of the legendary bird POKéMON. Those seeing it are overwhelmed by its orange wings that seem to be on fire.",
         "leafgreen": "It is said to be the legendary bird POKéMON of fire. Every flap of its wings creates a dazzling flare of flames."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -37487,6 +38759,12 @@
         "firered": "Even the young can exceed 6.5 feet in length. It grows larger by repeatedly shedding skin.",
         "leafgreen": "Long considered a mythical POKéMON until recently, when a small colony was found living underwater."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -37722,6 +39000,12 @@
         "firered": "It is said to live in seas and lakes. Even though it has no wings, it has been seen flying occasionally.",
         "leafgreen": "A mystical POKéMON that exudes a gentle aura. It is said to have the ability to change the weather."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -37918,6 +39202,12 @@
         "firered": "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours.",
         "leafgreen": "Only a very few people ever see this POKéMON. Its intelligence is said to match that of humans."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -38181,6 +39471,12 @@
         "firered": "A POKéMON whose genetic code was repeatedly recombined for research. It turned vicious as a result.",
         "leafgreen": "It was created by a scientist after years of horrific gene-splicing and DNA- engineering experiments."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -38457,6 +39753,12 @@
         "firered": "A POKéMON of South America that was thought to have been extinct. It is very intelligent and learns any move.",
         "leafgreen": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -38792,6 +40094,16 @@
         "firered": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
         "leafgreen": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -38982,6 +40294,16 @@
         "firered": "There is no telling where its tail begins. Despite its short legs, it is quick at hunting RATTATA.",
         "leafgreen": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -39203,6 +40525,16 @@
         "firered": "When the weather turns cold, numerous LEDYBA gather from everywhere to cluster and keep each other warm.",
         "leafgreen": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -39378,6 +40710,16 @@
         "firered": "The star patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
         "leafgreen": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -39568,6 +40910,16 @@
         "firered": "It spins a web using fine--but durable-- thread. It then waits patiently for prey to be trapped.",
         "leafgreen": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -39729,6 +41081,16 @@
         "firered": "A single strand of a special string is endlessly spun out of its rear. The string leads back to its nest.",
         "leafgreen": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -39905,6 +41267,16 @@
         "firered": "A proverb claims that happiness will come to anyone who can make a sleeping TOGEPI stand up.",
         "leafgreen": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -40107,6 +41479,16 @@
         "firered": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
         "leafgreen": "They say that it will appear before kindhearted, caring people and shower them with happiness."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        }
+      ],
       "eggGroups": [
         "flying",
         "fairy"
@@ -40349,6 +41731,16 @@
         "firered": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
         "leafgreen": "Because its wings aren’t yet fully grown, it has to hop to get around. It is always staring at something."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -40529,6 +41921,16 @@
         "firered": "In South America, it is said that its right eye sees the future and its left eye views the past.",
         "leafgreen": "They say that it stays still and quiet because it is seeing both the past and future at the same time."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -40718,6 +42120,12 @@
         "firered": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
         "leafgreen": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -40865,6 +42273,12 @@
         "firered": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted.",
         "leafgreen": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -41028,6 +42442,12 @@
         "firered": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
         "leafgreen": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -41244,6 +42664,16 @@
         "firered": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
         "leafgreen": "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Huge Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "water1",
         "fairy"
@@ -41426,6 +42856,16 @@
         "firered": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
         "leafgreen": "By keeping still and listening intently, it can even tell what is in wild, fast-moving rivers."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Huge Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "water1",
         "fairy"
@@ -41687,6 +43127,16 @@
         "firered": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
         "leafgreen": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -41842,6 +43292,16 @@
         "firered": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
         "leafgreen": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -42001,6 +43461,16 @@
         "firered": "It drifts on seasonal winds and spreads its cotton-like spores all over the world to make more offspring.",
         "leafgreen": "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -42174,6 +43644,16 @@
         "firered": "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
         "leafgreen": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -42399,6 +43879,16 @@
         "firered": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
         "leafgreen": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
       },
+      "abilities": [
+        {
+          "name": "Speed Boost",
+          "description": "Gradually boosts SPEED."
+        },
+        {
+          "name": "Compound Eyes",
+          "description": "Raises accuracy."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -42608,6 +44098,16 @@
         "firered": "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
         "leafgreen": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -42796,6 +44296,16 @@
         "firered": "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
         "leafgreen": "This carefree POKéMON has an easygoing nature. While swimming, it always bumps into boat hulls."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -43110,6 +44620,16 @@
         "firered": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
         "leafgreen": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Super Luck",
+          "description": "Raises moves' critical hit rates one stage."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -43388,6 +44908,12 @@
         "firered": "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.",
         "leafgreen": "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -43646,6 +45172,12 @@
         "firered": "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
         "leafgreen": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -43726,6 +45258,12 @@
         "firered": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
         "leafgreen": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike."
       },
+      "abilities": [
+        {
+          "name": "Shadow Tag",
+          "description": "Prevents the foe’s escape."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -43788,6 +45326,12 @@
         "firered": "It hangs and waits for flying-insect prey to come near. It does not move about much on its own.",
         "leafgreen": "It likes to make its shell thicker by adding layers of tree bark. The extra weight doesn’t bother it."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -43956,6 +45500,12 @@
         "firered": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
         "leafgreen": "Its entire body is shielded by a steel- hard shell. What lurks inside the armor is a total mystery."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -44139,6 +45689,16 @@
         "firered": "If spotted, it escapes by burrowing with its tail. It can hover just slightly using its wings.",
         "leafgreen": "When spotted, this POKéMON escapes backward by furiously boring into the ground with its tail."
       },
+      "abilities": [
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        },
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -44448,6 +46008,16 @@
         "firered": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
         "leafgreen": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
       },
+      "abilities": [
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        },
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -44632,6 +46202,16 @@
         "firered": "It stores BERRIES inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
         "leafgreen": "The BERRIES it stores in its vaselike shell decompose and become a gooey liquid."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Gluttony",
+          "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -44796,6 +46376,16 @@
         "firered": "Usually docile, but if disturbed while sipping honey, it chases off the intruder with its horn.",
         "leafgreen": "This powerful POKéMON thrusts its prized horn under its enemies’ bellies, then lifts and throws them."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -45000,6 +46590,16 @@
         "firered": "Vicious in nature, it drives PIDGEY from their nests and feasts on the eggs that are left behind.",
         "leafgreen": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        },
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -45230,6 +46830,16 @@
         "firered": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
         "leafgreen": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -45426,6 +47036,16 @@
         "firered": "With its ability to distinguish any smell, it unfailingly finds all food buried deep underground.",
         "leafgreen": "Although it is a good climber, it prefers to snap stout trees with its forelegs and eat fallen BERRIES."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -45671,6 +47291,16 @@
         "firered": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
         "leafgreen": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden."
       },
+      "abilities": [
+        {
+          "name": "Magma Armor",
+          "description": "Prevents freezing."
+        },
+        {
+          "name": "Flame Body",
+          "description": "Burns the foe on contact."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -45832,6 +47462,16 @@
         "firered": "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
         "leafgreen": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch."
       },
+      "abilities": [
+        {
+          "name": "Magma Armor",
+          "description": "Prevents freezing."
+        },
+        {
+          "name": "Flame Body",
+          "description": "Burns the foe on contact."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -46028,6 +47668,16 @@
         "firered": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
         "leafgreen": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Snow Cloak",
+          "description": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -46204,6 +47854,16 @@
         "firered": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
         "leafgreen": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Snow Cloak",
+          "description": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -46477,6 +48137,16 @@
         "firered": "Using its dorsal fin as a suction pad, it clings to a MANTINE’s underside to scavenge for leftovers.",
         "leafgreen": "It has superb accuracy. The water it shoots out can strike even moving prey from more than 100 yards."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water2"
@@ -46647,6 +48317,16 @@
         "firered": "It instinctively sneaks into rocky holes. If it gets sleepy, it steals the nest of a fellow OCTILLERY.",
         "leafgreen": "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
       },
+      "abilities": [
+        {
+          "name": "Suction Cups",
+          "description": "Firmly anchors the body."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water2"
@@ -46844,6 +48524,16 @@
         "firered": "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks.",
         "leafgreen": "It carries food all day long. There are tales about lost people who were saved by the food it had."
       },
+      "abilities": [
+        {
+          "name": "Vital Spirit",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -46999,6 +48689,16 @@
         "firered": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
         "leafgreen": "As it majestically swims, it doesn’t care if REMORAID attach to it to scavenge for its leftovers."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -47171,6 +48871,16 @@
         "firered": "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
         "leafgreen": "Its sturdy wings look heavy, but its bones are hollow and light, allowing it to fly freely in the sky."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -47355,6 +49065,16 @@
         "firered": "To corner prey, they check each other’s location using barks that only they can understand.",
         "leafgreen": "It uses different kinds of cries for communicating with others of its kind and for pursuing prey."
       },
+      "abilities": [
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -47544,6 +49264,16 @@
         "firered": "Upon hearing its eerie howls, other POKéMON get the shivers and head straight back to their nests.",
         "leafgreen": "If you are burned by the flames it shoots from its mouth, the pain will never go away."
       },
+      "abilities": [
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -47756,6 +49486,12 @@
         "firered": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
         "leafgreen": "It swings its long snout around playfully, but because it is so strong, this can be dangerous."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -47913,6 +49649,12 @@
         "firered": "The longer and bigger its tusks, the higher its rank in its herd. The tusks take a long time to grow.",
         "leafgreen": "It has sharp, hard tusks and a rugged hide. Its TACKLE is strong enough to knock down a house."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -48079,6 +49821,16 @@
         "firered": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
         "leafgreen": "Its curved antlers subtly change the flow of air to create a strange space where reality is distorted."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Frisk",
+          "description": "Reveals an opponent's held item upon entering battle."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -48288,6 +50040,16 @@
         "firered": "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
         "leafgreen": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory."
       },
+      "abilities": [
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        },
+        {
+          "name": "Technician",
+          "description": "Strengthens moves of 60 base power or less to 1.5× their power."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -48374,6 +50136,12 @@
         "firered": "This POKéMON races across the land while barking a cry that sounds like crashing thunder.",
         "leafgreen": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -48567,6 +50335,12 @@
         "firered": "A POKéMON that races across the land. It is said that one is born every time a new volcano appears.",
         "leafgreen": "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -48759,6 +50533,12 @@
         "firered": "This POKéMON races across the land. It is said that north winds will somehow blow whenever it appears.",
         "leafgreen": "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -48956,6 +50736,12 @@
         "firered": "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
         "leafgreen": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -49127,6 +50913,12 @@
         "firered": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
         "leafgreen": "Its shell is as hard as sheet rock, and it is also very strong. Its THRASHING can topple a mountain."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -49298,6 +51090,12 @@
         "firered": "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
         "leafgreen": "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies."
       },
+      "abilities": [
+        {
+          "name": "Sand Stream",
+          "description": "Summons a sandstorm."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -49553,6 +51351,12 @@
         "firered": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
         "leafgreen": "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -49800,6 +51604,12 @@
         "firered": "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
         "leafgreen": "Legends claim this POKéMON flies the world’s skies continuously on its magnificent seven-colored wings."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50034,6 +51844,12 @@
         "firered": "When CELEBI disappears deep in a forest, it is said to leave behind an egg it brought from the future.",
         "leafgreen": "This POKéMON wanders across time. Grass and trees flourish in the forests in which it has appeared."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50232,6 +52048,12 @@
         "firered": "This DEOXYS has transformed into its aggressive guise. It can fool enemies by altering its appearance.",
         "leafgreen": "When it changes form, an aurora appears. It absorbs attacks by altering its cellular structure."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],

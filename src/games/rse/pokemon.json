@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T03:07:39.295Z",
+  "generatedAt": "2026-03-13T18:01:07.445Z",
   "hoennCount": 135,
   "nationalCount": 88,
   "locations": [
@@ -153,6 +153,12 @@
         "sapphire": "CHARIZARD flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
         "emerald": "A CHARIZARD flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -407,6 +413,12 @@
         "sapphire": "This POKéMON has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while PIKACHU sleeps. It occasionally discharges electricity when it is dozy after waking up.",
         "emerald": "It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -628,6 +640,12 @@
         "sapphire": "SANDSHREW has a very dry hide that is extremely tough. The POKéMON can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
         "emerald": "When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -832,6 +850,12 @@
         "sapphire": "Inside VULPIX’s body burns a flame that never goes out. During the daytime, when the temperatures rise, this POKéMON releases flames from its mouth to prevent its body from growing too hot.",
         "emerald": "It can freely control fire, making fiery orbs fly like will-o’-the-wisps. Just before evolution, its six tails grow hot as if on fire."
       },
+      "abilities": [
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -1015,6 +1039,16 @@
         "sapphire": "When this POKéMON sings, it never pauses to breathe. If it is in a battle against an opponent that does not easily fall asleep, JIGGLYPUFF cannot breathe, endangering its life.",
         "emerald": "Nothing can avoid falling asleep hearing a JIGGLYPUFF’s song. The sound waves of its singing voice match the brain waves of someone in a deep sleep."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Competitive",
+          "description": "Raises Special Attack by two stages upon having any stat lowered."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -1459,6 +1493,12 @@
         "sapphire": "ZUBAT avoids sunlight because exposure causes it to become unhealthy. During the daytime, it stays in caves or under the eaves of old houses, sleeping while hanging upside down.",
         "emerald": "While living in pitch-black caverns, their eyes gradually grew shut and deprived them of vision. They use ultrasonic waves to detect obstacles."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -1888,6 +1928,12 @@
         "sapphire": "GOLBAT bites down on prey with its four fangs and drinks the victim’s blood. It becomes active on inky dark moonless nights, flying around to attack people and POKéMON.",
         "emerald": "Its fangs easily puncture even thick animal hide. It loves to feast on the blood of people and POKéMON. It flits about in darkness and strikes from behind."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -2176,6 +2222,12 @@
         "sapphire": "ODDISH searches for fertile, nutrient- rich soil, then plants itself. During the daytime, while it is planted, this POKéMON’s feet are thought to change shape and become similar to the roots of trees.",
         "emerald": "This POKéMON grows by absorbing moonlight. During the daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its enemies."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -2391,6 +2443,12 @@
         "sapphire": "From its mouth GLOOM drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
         "emerald": "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -2566,6 +2624,16 @@
         "sapphire": "If it uses its mysterious power, PSYDUCK can’t remember having done so. It apparently can’t form a memory of such an event because it goes into an altered state that is much like deep sleep.",
         "emerald": "When its headache intensifies, it starts using strange powers. However, it has no recollection of its powers, so it always looks befuddled and bewildered."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Negates weather effects."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -2787,6 +2855,16 @@
         "sapphire": "GOLDUCK is the fastest swimmer among all POKéMON. It swims effortlessly, even in a rough, stormy sea. It sometimes rescues people from wrecked ships floundering in high seas.",
         "emerald": "A GOLDUCK is an adept swimmer. It sometimes joins competitive swimmers in training. It uses psychic powers when its forehead shimmers with light."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Negates weather effects."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -3052,6 +3130,16 @@
         "sapphire": "ABRA needs to sleep for eighteen hours a day. If it doesn’t, this POKéMON loses its ability to use telekinetic powers. If it is attacked, ABRA escapes using TELEPORT while it is still sleeping.",
         "emerald": "A POKéMON that sleeps 18 hours a day. Observation revealed that it uses TELEPORT to change its location once every hour."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -3260,6 +3348,16 @@
         "sapphire": "MACHOP exercises by hefting around a GRAVELER as if it were a barbell. There are some MACHOP that travel the world in a quest to master all kinds of martial arts.",
         "emerald": "It continually undertakes strenuous training to master all forms of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "No Guard",
+          "description": "Ensures all moves used by and against the Pokémon hit."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -4457,6 +4555,16 @@
         "sapphire": "TENTACOOL absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This POKéMON shoots beams from its crystal-like eyes.",
         "emerald": "Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -4657,6 +4765,16 @@
         "sapphire": "TENTACRUEL has tentacles that can be freely elongated and shortened at will. It ensnares prey with its tentacles and weakens the prey by dosing it with a harsh toxin. It can catch up to 80 prey at the same time.",
         "emerald": "It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -4912,6 +5030,16 @@
         "sapphire": "When GEODUDE sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly. In the morning, this POKéMON rolls downhill in search of food.",
         "emerald": "It climbs mountain paths using only the power of its arms. Because they look just like boulders lining paths, hikers may step on them without noticing."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -5123,6 +5251,16 @@
         "sapphire": "Rocks are GRAVELER’s favorite food. This POKéMON will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.",
         "emerald": "They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and massive boulders with thunderous tackles."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -5338,6 +5476,16 @@
         "sapphire": "MAGNEMITE floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity. This POKéMON becomes incapable of flight if its internal electrical supply is depleted.",
         "emerald": "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away."
       },
+      "abilities": [
+        {
+          "name": "Magnet Pull",
+          "description": "Traps STEEL-type POKéMON."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -5506,6 +5654,16 @@
         "sapphire": "MAGNETON emits a powerful magnetic force that is fatal to electronics and precision instruments. Because of this, it is said that some towns warn people to keep this POKéMON inside a POKé BALL.",
         "emerald": "It is actually three MAGNEMITE linked by magnetism. It generates powerful radio waves that raise temperatures by 3.6 degrees F within a 3,300-foot radius."
       },
+      "abilities": [
+        {
+          "name": "Magnet Pull",
+          "description": "Traps STEEL-type POKéMON."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -5706,6 +5864,16 @@
         "sapphire": "DODUO’s two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this POKéMON possessing different sets of brains.",
         "emerald": "Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -5869,6 +6037,16 @@
         "sapphire": "Apparently, the heads aren’t the only parts of the body that DODRIO has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
         "emerald": "A peculiar POKéMON species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -6044,6 +6222,16 @@
         "sapphire": "GRIMER emerged from the sludge that settled on a polluted seabed. This POKéMON loves anything filthy. It constantly leaks a horribly germ- infested fluid from all over its body.",
         "emerald": "Born from polluted sludge in the sea, GRIMER’s favorite food is anything filthy. They feed on wastewater pumped out from factories."
       },
+      "abilities": [
+        {
+          "name": "Stench",
+          "description": "Helps repel wild POKéMON."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "Prevents item theft."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -6270,6 +6458,16 @@
         "sapphire": "VOLTORB is extremely sensitive - it explodes at the slightest of shocks. It is rumored that it was first created when a POKé BALL was exposed to a powerful pulse of energy.",
         "emerald": "It bears an uncanny and unexplained resemblance to a POKé BALL. Because it explodes at the slightest shock, even veteran TRAINERS treat it with caution."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        },
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -6485,6 +6683,16 @@
         "sapphire": "One of ELECTRODE’s characteristics is its attraction to electricity. It is a problematical POKéMON that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
         "emerald": "They appear in great numbers at electric power plants. Because they feed on electricity, they cause massive and chaotic blackouts in nearby cities."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        },
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -6672,6 +6880,16 @@
         "sapphire": "KOFFING embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this POKéMON.",
         "emerald": "Getting up close to a KOFFING will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "description": "Neutralizes abilities of all Pokémon in battle."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -6869,6 +7087,16 @@
         "sapphire": "RHYHORN’s brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
         "emerald": "Once it starts running, it doesn’t stop. Its tiny brain makes it so stupid that it can’t remember why it started running in the first place."
       },
+      "abilities": [
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -7114,6 +7342,16 @@
         "sapphire": "If HORSEA senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This POKéMON swims by cleverly flapping the fins on its back.",
         "emerald": "By cleverly flicking the fins on its back side to side, it moves in any direction while facing forward. It spits ink to escape if it senses danger."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -7635,6 +7873,16 @@
         "sapphire": "GOLDEEN loves swimming wild and free in rivers and ponds. If one of these POKéMON is placed in an aquarium, it will shatter even the thickest glass with one ram of its horn and make its escape.",
         "emerald": "In the springtime, schools of GOLDEEN can be seen swimming up falls and rivers. It metes out staggering damage with its single horn."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -7821,6 +8069,16 @@
         "sapphire": "SEAKING is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these POKéMON goes on for over a month.",
         "emerald": "It punches holes in boulders on stream­ beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -7999,6 +8257,16 @@
         "sapphire": "STARYU apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this POKéMON simply regenerates the missing pieces and limbs.",
         "emerald": "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body."
       },
+      "abilities": [
+        {
+          "name": "Illuminate",
+          "description": "Encounter rate increases."
+        },
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -8199,6 +8467,16 @@
         "sapphire": "PINSIR has a pair of massive horns Protruding from the surface of these horns are thorns. These thorns are driven deeply into the foe’s body when the pincer closes, making it tough for the foe to escape.",
         "emerald": "Their pincers are strong enough to shatter thick logs. Because they dislike cold, PINSIR burrow and sleep under the ground on chilly nights."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Mold Breaker",
+          "description": "Bypasses targets' abilities if they could hinder or prevent a move."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -9397,6 +9675,12 @@
         "sapphire": "MAGIKARP is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy POKéMON that can survive in any body of water no matter how polluted it is.",
         "emerald": "Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many MAGIKARP deposited there by the flow."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water2",
         "dragon"
@@ -9458,6 +9742,12 @@
         "sapphire": "Once GYARADOS goes on a rampage, its ferociously violent blood doesn’t calm until it has burned everything down. There are records of this POKéMON’s rampages lasting a whole month.",
         "emerald": "It is an extremely vicious and violent POKéMON. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        }
+      ],
       "eggGroups": [
         "water2",
         "dragon"
@@ -9674,6 +9964,12 @@
         "sapphire": "DITTO rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this POKéMON manages to get details wrong.",
         "emerald": "A DITTO rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong."
       },
+      "abilities": [
+        {
+          "name": "Limber",
+          "description": "Prevents paralysis."
+        }
+      ],
       "eggGroups": [
         "ditto"
       ],
@@ -9725,6 +10021,12 @@
         "sapphire": "MEW is said to possess the genetic composition of all POKéMON. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
         "emerald": "A MEW is said to possess the genes of all POKéMON. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -10060,6 +10362,12 @@
         "sapphire": "In battle, CHIKORITA waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling POKéMON and creating a cozy, friendly atmosphere all around.",
         "emerald": "It waves its leaf around to keep foes at bay. However, a sweet fragrance also wafts from the leaf, creating a friendly atmosphere that becalms the battlers."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "plant"
@@ -10250,6 +10558,12 @@
         "sapphire": "CYNDAQUIL protects itself by flaring up the flames on its back. The flames are vigorous if the POKéMON is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
         "emerald": "It flares flames from its back to protect itself. The fire burns vigorously if the POKéMON is angry. When it is tired, it sputters with incomplete combustion."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -10420,6 +10734,12 @@
         "sapphire": "Despite the smallness of its body, TOTODILE’s jaws are very powerful. While the POKéMON may think it is just playfully nipping, its bite has enough power to cause serious injury.",
         "emerald": "Despite its small body, TOTODILE’s jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause serious injury."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -10618,6 +10938,16 @@
         "sapphire": "FURRET has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this POKéMON is very nimble and fleet.",
         "emerald": "A FURRET has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -10863,6 +11193,16 @@
         "sapphire": "HOOTHOOT has an internal organ that senses and tracks the earth’s rotation. Using this special organ, this POKéMON begins hooting at precisely the same time every day.",
         "emerald": "It has an internal organ that senses the earth’s rotation. Using this special organ, a HOOTHOOT begins hooting at precisely the same time every day."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -11047,6 +11387,16 @@
         "sapphire": "LEDYBA secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This POKéMON conveys its feelings to others by altering the fluid’s scent.",
         "emerald": "LEDYBA communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid’s scent."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -11232,6 +11582,16 @@
         "sapphire": "It is said that in lands with clean air, where the stars fill the sky, there live LEDIAN in countless numbers. There is a good reason for this - the POKéMON uses the light of the stars as its energy.",
         "emerald": "It is said that in lands with clean air, where the stars fill the sky, there live many LEDIAN. For good reason, they use the light of the stars as energy."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -11432,6 +11792,16 @@
         "sapphire": "The web spun by SPINARAK can be considered its second nervous system. It is said that this POKéMON can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web’s strands.",
         "emerald": "The web it spins can be considered its second nervous system. It is said that a SPINARAK determines its prey by the tiny vibrations it feels through the web."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -11598,6 +11968,16 @@
         "sapphire": "ARIADOS’s feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This POKéMON constricts the foe with thin and strong silk webbing.",
         "emerald": "Its feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. It constricts its foe with thin and strong silk webbing."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -11790,6 +12170,16 @@
         "sapphire": "CHINCHOU’s two antennas are filled with cells that generate strong electricity. This POKéMON’s cells create so much electrical power, it even makes itself tingle slightly.",
         "emerald": "When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight’s reach."
       },
+      "abilities": [
+        {
+          "name": "Volt Absorb",
+          "description": "Turns electricity into HP."
+        },
+        {
+          "name": "Illuminate",
+          "description": "Encounter rate increases."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -11969,6 +12359,16 @@
         "sapphire": "TOGETIC is said to be a POKéMON that brings good fortune. When the POKéMON spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
         "emerald": "It is said to be a POKéMON that brings good fortune. When it spots someone who is pure of heart, a TOGETIC appears and shares its happiness with that person."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        }
+      ],
       "eggGroups": [
         "flying",
         "fairy"
@@ -12221,6 +12621,16 @@
         "sapphire": "NATU has a highly developed jumping ability. The POKéMON flaps and leaps onto tree branches that are taller than grown-up people to pick at the tree’s new shoots.",
         "emerald": "It runs up short trees that grow on the savanna to peck at new shoots. A NATU’s eyes look as if they are always observing something."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -12419,6 +12829,16 @@
         "sapphire": "XATU is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical POKéMON out of their belief that XATU is in possession of the power to see into the future.",
         "emerald": "It has the enigmatic power of foreseeing the future. Some people in different lands have long believed that XATU are emissaries from another world."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -12625,6 +13045,12 @@
         "sapphire": "MAREEP’s fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail grows.",
         "emerald": "Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -12779,6 +13205,12 @@
         "sapphire": "FLAAFFY’s wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity.",
         "emerald": "Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -12952,6 +13384,12 @@
         "sapphire": "AMPHAROS gives off so much light that it can be seen even from space. People in the old days used the light of this POKéMON to send signals back and forth with others far away.",
         "emerald": "It gives off so much light that it can be seen even from space. People in the old days used its light to send signals back and forth with others far away."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -13248,6 +13686,16 @@
         "sapphire": "When fishing for food at the edge of a fast-running stream, MARILL wraps its tail around the trunk of a tree. This POKéMON’s tail is flexible and configured to stretch.",
         "emerald": "Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water’s resistance."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Huge Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "water1",
         "fairy"
@@ -13446,6 +13894,16 @@
         "sapphire": "AZUMARILL can make balloons out of air. It makes these air balloons if it spots a drowning POKéMON. The air balloons enable the POKéMON in trouble to breathe.",
         "emerald": "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Huge Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "water1",
         "fairy"
@@ -13662,6 +14120,16 @@
         "sapphire": "SUDOWOODO camouflages itself as a tree to avoid being attacked by enemies. However, because the forelegs remain green throughout the year, the POKéMON is easily identified as a fake during the winter.",
         "emerald": "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -13849,6 +14317,16 @@
         "sapphire": "SKIPLOOM’s flower blossoms when the temperature rises above 64 degrees F. How much the flower opens depends on the temperature. For that reason, this POKéMON is sometimes used as a thermometer.",
         "emerald": "It blossoms when the temperature rises above 64 degrees F. Because its flower’s blooming changes with the temperature, it is sometimes used as a thermometer."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -14014,6 +14492,16 @@
         "sapphire": "JUMPLUFF rides warm southern winds to cross the sea and fly to foreign lands. The POKéMON descends to the ground when it encounters cold air while it is floating.",
         "emerald": "JUMPLUFF ride warm southern winds to cross the sea and fly to foreign lands. This POKéMON lands when it encounters cold air while it is floating."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Protects against major status ailments during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -14213,6 +14701,16 @@
         "sapphire": "AIPOM’s tail ends in a hand-like appendage that can be cleverly manipulated. However, because the POKéMON uses its tail so much, its real hands have become rather clumsy.",
         "emerald": "Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, AIPOM’s real hands have become rather clumsy."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -14460,6 +14958,16 @@
         "sapphire": "SUNKERN tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
         "emerald": "SUNKERN try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Solar Power",
+          "description": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "plant"
       ],
@@ -14633,6 +15141,16 @@
         "sapphire": "WOOPER usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film.",
         "emerald": "WOOPER usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -14846,6 +15364,16 @@
         "sapphire": "QUAGSIRE hunts for food by leaving its mouth wide open in water and waiting for its prey to blunder in unaware. Because the POKéMON does not move, it does not get very hungry.",
         "emerald": "A QUAGSIRE hunts by leaving its mouth wide open in water and waiting for its prey to blunder in. Because it doesn’t move, it does not get very hungry."
       },
+      "abilities": [
+        {
+          "name": "Damp",
+          "description": "Prevents self-destruction."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "Changes water into HP."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -15083,6 +15611,12 @@
         "sapphire": "WOBBUFFET does nothing but endure attacks - it won’t attack on its own. However, it won’t endure an attack on its tail. When that happens, the POKéMON will try to take the foe with it using DESTINY BOND.",
         "emerald": "Usually docile, a WOBBUFFET strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall."
       },
+      "abilities": [
+        {
+          "name": "Shadow Tag",
+          "description": "Prevents the foe’s escape."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -15157,6 +15691,16 @@
         "sapphire": "GIRAFARIG’s rear head contains a tiny brain that is too small for thinking. However, the rear head doesn’t need to sleep, so it can keep watch over its surroundings 24 hours a day.",
         "emerald": "A GIRAFARIG is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -15386,6 +15930,12 @@
         "sapphire": "PINECO hangs from a tree branch and patiently waits for prey to come along. If the POKéMON is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning.",
         "emerald": "A PINECO hangs from a tree branch and waits for prey. While eating, if it is disturbed by someone shaking its tree, it falls on the ground and suddenly explodes."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -15561,6 +16111,12 @@
         "sapphire": "FORRETRESS conceals itself inside its hardened steel shell. The shell is opened when the POKéMON is catching prey, but it does so at such a quick pace that the shell’s inside cannot be seen.",
         "emerald": "It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell’s inside cannot be seen."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -15748,6 +16304,16 @@
         "sapphire": "GLIGAR glides through the air without a sound as if it were sliding. This POKéMON hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
         "emerald": "It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -15944,6 +16510,16 @@
         "sapphire": "By baring its fangs and making a scary face, SNUBBULL sends smaller POKéMON scurrying away in terror. However, this POKéMON seems a little sad at making its foes flee.",
         "emerald": "By baring its fangs and making a scary face, it sends smaller POKéMON scurrying in terror. The SNUBBULL does seem a little sad at making its foes flee."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -16206,6 +16782,16 @@
         "sapphire": "SHUCKLE quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice.",
         "emerald": "A SHUCKLE hides under rocks, keeping its body concealed inside its shell while eating stored berries. The berries mix with its body fluids to become a juice."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Gluttony",
+          "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -16378,6 +16964,16 @@
         "sapphire": "HERACROSS has sharp claws on its feet. These are planted firmly into the ground or the bark of a tree, giving the POKéMON a secure and solid footing to forcefully fling away foes with its proud horn.",
         "emerald": "They gather in forests seeking the sweet sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -16587,6 +17183,16 @@
         "sapphire": "This POKéMON likes to lick its palms that are sweetened by being soaked in honey. TEDDIURSA concocts its own honey by blending fruits and pollen collected by BEEDRILL.",
         "emerald": "It licks its palms that are sweetened by being soaked in honey. A TEDDIURSA makes its own honey by blending fruits and pollen collected by BEEDRILL."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -16797,6 +17403,16 @@
         "sapphire": "In the forests inhabited by URSARING, it is said that there are many streams and towering trees where they gather food. This POKéMON walks through its forest gathering food every day.",
         "emerald": "In forests, it is said that there are many streams and towering trees where an URSARING gathers food. It walks through its forest collecting food every day."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -17036,6 +17652,16 @@
         "sapphire": "SLUGMA does not have any blood in its body. Instead, intensely hot magma circulates throughout this POKéMON’s body, carrying essential nutrients and oxygen to its organs.",
         "emerald": "It is a species of POKéMON that lives in volcanic areas. If its body cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma."
       },
+      "abilities": [
+        {
+          "name": "Magma Armor",
+          "description": "Prevents freezing."
+        },
+        {
+          "name": "Flame Body",
+          "description": "Burns the foe on contact."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -17194,6 +17820,16 @@
         "sapphire": "PILOSWINE is covered by a thick coat of long hair that enables it to endure the freezing cold. This POKéMON uses its tusks to dig up food that has been buried under ice.",
         "emerald": "A PILOSWINE is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Snow Cloak",
+          "description": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -17417,6 +18053,16 @@
         "sapphire": "Clusters of CORSOLA congregate in warm seas where they serve as ideal hiding places for smaller POKéMON. When the water temperature falls, this POKéMON migrates to the southern seas.",
         "emerald": "CORSOLA live in warm southern seas. If the sea becomes polluted, the beautiful coral stalks become discolored and crumble away in tatters."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -17655,6 +18301,16 @@
         "sapphire": "REMORAID sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this POKéMON travels downstream from rivers.",
         "emerald": "A REMORAID uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers."
       },
+      "abilities": [
+        {
+          "name": "Hustle",
+          "description": "Trades accuracy for power."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water2"
@@ -17848,6 +18504,16 @@
         "sapphire": "OCTILLERY grabs onto its foe using its tentacles. This POKéMON tries to immobilize it before delivering the finishing blow. If the foe turns out to be too strong, OCTILLERY spews ink to escape.",
         "emerald": "It ensnares its foe with its suction- cupped tentacles before delivering the finishing blow. If the foe turns out to be too strong, it spews ink to escape."
       },
+      "abilities": [
+        {
+          "name": "Suction Cups",
+          "description": "Firmly anchors the body."
+        },
+        {
+          "name": "Sniper",
+          "description": "Strengthens critical hits to inflict 3× damage rather than 2×."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water2"
@@ -18047,6 +18713,16 @@
         "sapphire": "SKARMORY’s steel wings become tattered and bashed in from repeated battles. Once a year, the battered wings grow back completely, restoring the cutting edges to their pristine state.",
         "emerald": "A POKéMON that has a body and wings of steel. People in the past used feathers fallen from SKARMORY to make swords and knives."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -18248,6 +18924,16 @@
         "sapphire": "HOUNDOUR hunt as a coordinated pack. They communicate with each other using a variety of cries to corner their prey. This POKéMON’s remarkable teamwork is unparalleled.",
         "emerald": "HOUNDOUR communicate with each other using a variety of cries to corner their prey. This POKéMON’s remarkable teamwork is simply unparalleled."
       },
+      "abilities": [
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -18444,6 +19130,16 @@
         "sapphire": "In a HOUNDOOM pack, the one with its horns raked sharply towards the back serves a leadership role. These POKéMON choose their leader by fighting amongst themselves.",
         "emerald": "In a HOUNDOOM pack, the one with its horns raked sharply back serves a leadership role. They choose their leader by fighting among themselves."
       },
+      "abilities": [
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "Powers up if hit by fire."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -18653,6 +19349,12 @@
         "sapphire": "PHANPY uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These POKéMON can be seen drying their soaking-wet bodies at the edge of water.",
         "emerald": "PHANPY’s big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -18818,6 +19520,12 @@
         "sapphire": "If DONPHAN were to tackle with its hard body, even a house could be destroyed. Using its massive strength, the POKéMON helps clear rock and mud slides that block mountain trails.",
         "emerald": "A DONPHAN is so strong it can easily haul a dump truck. Its hide has toughened to a rock-hard state. An ordinary sort of attack won’t even leave a scratch."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -19002,6 +19710,16 @@
         "sapphire": "STANTLER’s magnificent antlers were traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction by those who were after the priceless antlers.",
         "emerald": "STANTLER’s magnificent antlers were once traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Frisk",
+          "description": "Reveals an opponent's held item upon entering battle."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -19225,6 +19943,16 @@
         "sapphire": "SMEARGLE marks the boundaries of its territory using a body fluid that leaks out from the tip of its tail. Over 5,000 different marks left by this POKéMON have been found.",
         "emerald": "A SMEARGLE marks its territory using a fluid that leaks out from the tip of its tail. About 5,000 different marks left by this POKéMON have been found."
       },
+      "abilities": [
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        },
+        {
+          "name": "Technician",
+          "description": "Strengthens moves of 60 base power or less to 1.5× their power."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -19312,6 +20040,16 @@
         "sapphire": "MILTANK gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can’t drink milk turn it into yogurt and eat it instead.",
         "emerald": "It gives over five gallons of milk daily. Its sweet milk is enjoyed by children and grown-ups alike. People who can’t drink milk turn it into yogurt and eat it instead."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Scrappy",
+          "description": "Lets the Pokémon's normal and fighting moves hit ghost Pokémon."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -19540,6 +20278,12 @@
         "sapphire": "PUPITAR creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable - it avoids damage even if it hits solid steel.",
         "emerald": "A PUPITAR creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -19717,6 +20461,12 @@
         "sapphire": "TYRANITAR is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This POKéMON wanders about in mountains seeking new opponents to fight.",
         "emerald": "A TYRANITAR is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. It roams in mountains seeking new opponents to fight."
       },
+      "abilities": [
+        {
+          "name": "Sand Stream",
+          "description": "Summons a sandstorm."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -19981,6 +20731,12 @@
         "sapphire": "LUGIA’s wings pack devastating power - a light fluttering of its wings can blow apart regular houses. As a result, this POKéMON chooses to live out of sight deep under the sea.",
         "emerald": "LUGIA is so powerful even a light fluttering of its wings can blow apart houses. As a result, it chooses to live out of sight deep under the sea."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -20241,6 +20997,12 @@
         "sapphire": "HO-OH’s feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This POKéMON is said to live at the foot of a rainbow.",
         "emerald": "Its feathers--which glow in seven colors depending on the angle at which they are struck by light--are thought to bring joy. It is said to live at the foot of a rainbow."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -20483,6 +21245,12 @@
         "sapphire": "This POKéMON came from the future by crossing over time. It is thought that so long as CELEBI appears, a bright and shining future awaits us.",
         "emerald": "This POKéMON came from the future by crossing over time. It is thought that so long as CELEBI appears, a bright and shining future awaits us."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -20691,6 +21459,12 @@
         "sapphire": "TREECKO is cool, calm, and collected - it never panics under any situation. If a bigger foe were to glare at this POKéMON, it would glare right back without conceding an inch of ground.",
         "emerald": "It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the forest’s trees."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -20899,6 +21673,12 @@
         "sapphire": "This POKéMON adeptly flies from branch to branch in trees. In a forest, no POKéMON can ever hope to catch a fleeing GROVYLE however fast they may be.",
         "emerald": "Leaves grow out of this POKéMON’s body. They help obscure a GROVYLE from the eyes of its enemies while it is in a thickly overgrown forest."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -21112,6 +21892,12 @@
         "sapphire": "SCEPTILE has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This POKéMON raises the trees in a forest with loving care.",
         "emerald": "In the jungle, its power is without equal. This POKéMON carefully grows trees and plants. It regulates its body temperature by basking in sunlight."
       },
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "description": "Ups GRASS moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "dragon"
@@ -21353,6 +22139,12 @@
         "sapphire": "TORCHIC has a place inside its body where it keeps its flame. Give it a hug - it will be glowing with warmth. This POKéMON is covered all over by a fluffy coat of down.",
         "emerald": "If attacked, it strikes back by spitting balls of fire it forms in its stomach. A TORCHIC dislikes darkness because it can’t see its surroundings."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -21539,6 +22331,12 @@
         "sapphire": "COMBUSKEN battles with the intensely hot flames it spews from its beak and with outstandingly destructive kicks. This POKéMON’s cry is very loud and distracting.",
         "emerald": "It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -21746,6 +22544,12 @@
         "sapphire": "BLAZIKEN has incredibly strong legs - it can easily clear a 30-story building in one leap. This POKéMON’s blazing punches leave its foes scorched and blackened.",
         "emerald": "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place."
       },
+      "abilities": [
+        {
+          "name": "Blaze",
+          "description": "Ups FIRE moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -21984,6 +22788,12 @@
         "sapphire": "In water, MUDKIP breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this POKéMON will unleash its amazing power - it can crush rocks bigger than itself.",
         "emerald": "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water’s edge."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -22183,6 +22993,12 @@
         "sapphire": "MARSHTOMP is much faster at traveling through mud than it is at swimming. This POKéMON’s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
         "emerald": "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -22398,6 +23214,12 @@
         "sapphire": "SWAMPERT predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins. If a storm is approaching, it piles up boulders to protect itself.",
         "emerald": "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski."
       },
+      "abilities": [
+        {
+          "name": "Torrent",
+          "description": "Ups WATER moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "monster",
         "water1"
@@ -22739,6 +23561,16 @@
         "sapphire": "POOCHYENA is an omnivore - it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This POKéMON tries to intimidate its foes by making the hair on its tail bristle out.",
         "emerald": "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back."
       },
+      "abilities": [
+        {
+          "name": "Run Away",
+          "description": "Makes escaping easier."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -22957,6 +23789,16 @@
         "sapphire": "MIGHTYENA travel and act as a pack in the wild. The memory of its life in the wild compels the POKéMON to obey only those TRAINERS that it recognizes to possess superior skill.",
         "emerald": "In the wild, MIGHTYENA live in a pack. They never defy their leader’s orders. They defeat foes with perfectly coordinated teamwork."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        },
+        {
+          "name": "Quick Feet",
+          "description": "Increases Speed to 1.5× with a major status ailment."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -23289,6 +24131,16 @@
         "sapphire": "The hair on ZIGZAGOON’s back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This POKéMON may play dead to fool foes in battle.",
         "emerald": "Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        },
+        {
+          "name": "Gluttony",
+          "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -23547,6 +24399,16 @@
         "sapphire": "When hunting, LINOONE will make a beeline straight for the prey at a full run. While this POKéMON is capable of topping 60 mph, it has to come to a screeching halt before it can turn.",
         "emerald": "It is exceedingly fast if it only has to run in a straight line. When it spots pond- dwelling prey underwater, it quickly leaps in and catches it with its sharp claws."
       },
+      "abilities": [
+        {
+          "name": "Pickup",
+          "description": "May pick up items."
+        },
+        {
+          "name": "Gluttony",
+          "description": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -23809,6 +24671,12 @@
         "sapphire": "WURMPLE is targeted by SWELLOW as prey. This POKéMON will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
         "emerald": "It sticks to tree branches and eats leaves. The thread it spits from its mouth, which becomes gooey when it touches air, slows the movement of its foes."
       },
+      "abilities": [
+        {
+          "name": "Shield Dust",
+          "description": "Prevents added effects."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -23868,6 +24736,12 @@
         "sapphire": "SILCOON was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this POKéMON slakes its thirst by drinking rainwater that collects on its silk.",
         "emerald": "It prepares for evolution using the energy it stored while it was a WURMPLE. It keeps watch over the surroundings with its two eyes."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -23913,6 +24787,12 @@
         "sapphire": "BEAUTIFLY has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This POKéMON rides the spring winds as it flits around gathering pollen.",
         "emerald": "Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered."
       },
+      "abilities": [
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -24090,6 +24970,12 @@
         "sapphire": "If it is attacked, CASCOON remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This POKéMON will also not forget the pain it endured.",
         "emerald": "To avoid detection by its enemies, it hides motionlessly beneath large leaves and in the gaps of branches. It also attaches dead leaves to its body for camouflage."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -24135,6 +25021,12 @@
         "sapphire": "When DUSTOX flaps its wings, a fine dust is scattered all over. This dust is actually a powerful poison that will even make a pro wrestler sick. This POKéMON searches for food using its antennae like radar.",
         "emerald": "It is a nocturnal POKéMON that flies from fields and mountains to the attraction of streetlights at night. It looses highly toxic powder from its wings."
       },
+      "abilities": [
+        {
+          "name": "Shield Dust",
+          "description": "Prevents added effects."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -24327,6 +25219,16 @@
         "sapphire": "LOTAD is said to have dwelled on land before. However, this POKéMON is thought to have returned to water because the leaf on its head grew large and heavy. It now lives by floating atop the water.",
         "emerald": "This POKéMON lives in ponds with clean water. It is known to ferry small POKéMON across ponds by carrying them on the broad leaf on its head."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Rain Dish",
+          "description": "Slight HP recovery in rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "plant"
@@ -24511,6 +25413,16 @@
         "sapphire": "LOMBRE’s entire body is covered by a slippery, slimy film. It feels horribly unpleasant to be touched by this POKéMON’s hands. LOMBRE is often mistaken for a human child.",
         "emerald": "In the evening, it takes great delight in popping out of rivers and startling people. It feeds on aquatic moss that grows on rocks in the riverbed."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Rain Dish",
+          "description": "Slight HP recovery in rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "plant"
@@ -24714,6 +25626,16 @@
         "sapphire": "Upon hearing an upbeat and cheerful rhythm, the cells in LUDICOLO’s body become very energetic and active. Even in battle, this POKéMON will exhibit an amazing amount of power.",
         "emerald": "When it hears festive music, all the cells in its body become stimulated, and it begins moving in rhythm. It does not quail even when it faces a tough opponent."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Rain Dish",
+          "description": "Slight HP recovery in rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "plant"
@@ -24946,6 +25868,16 @@
         "sapphire": "SEEDOT looks exactly like an acorn when it is dangling from a tree branch. It startles other POKéMON by suddenly moving. This POKéMON polishes its body once a day using leaves.",
         "emerald": "It hangs off branches and absorbs nutrients. When it finishes eating, its body becomes so heavy that it drops to the ground with a thump."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "ground",
         "plant"
@@ -25116,6 +26048,16 @@
         "sapphire": "This POKéMON pulls out the leaf on its head and makes a flute with it. The sound of NUZLEAF’s flute strikes fear and uncertainty in the hearts of people lost in a forest.",
         "emerald": "A forest-dwelling POKéMON that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Early Bird",
+          "description": "Awakens quickly from sleep."
+        }
+      ],
       "eggGroups": [
         "ground",
         "plant"
@@ -25313,6 +26255,16 @@
         "sapphire": "SHIFTRY’s large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This POKéMON chooses to live quietly deep in forests.",
         "emerald": "It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this POKéMON lives in a deep forest where people do not venture."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Wind Rider",
+          "description": "Gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one."
+        }
+      ],
       "eggGroups": [
         "ground",
         "plant"
@@ -25531,6 +26483,12 @@
         "sapphire": "TAILLOW is young - it has only just left its nest. As a result, it sometimes becomes lonesome and cries at night. This POKéMON feeds on WURMPLE that live in forests.",
         "emerald": "Although it is small, it is very courageous. It will take on a larger SKARMORY on an equal footing. However, its will weakens if it becomes hungry."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -25698,6 +26656,12 @@
         "sapphire": "SWELLOW is very conscientious about the upkeep of its glossy wings. Once two SWELLOW are gathered, they diligently take care of cleaning each other’s wings.",
         "emerald": "A SWELLOW dives upon prey from far above. It never misses its targets. It takes to the skies in search of lands with a warm climate."
       },
+      "abilities": [
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "flying"
       ],
@@ -26250,6 +27214,16 @@
         "sapphire": "WINGULL rides updrafts rising from the sea by extending its long and narrow wings to glide. This POKéMON’s long beak is useful for catching prey.",
         "emerald": "It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Hydration",
+          "description": "Cures any major status ailment after each turn during rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "flying"
@@ -26729,6 +27703,16 @@
         "sapphire": "PELIPPER searches for food while in flight by skimming the wave tops. This POKéMON dips its large bill in the sea to scoop up food, then swallows everything in one big gulp.",
         "emerald": "It skims the tops of waves as it flies. When it spots prey, it uses its large beak to scoop up the victim with water. It protects its eggs in its beak."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Drizzle",
+          "description": "Summons rain in battle."
+        }
+      ],
       "eggGroups": [
         "water1",
         "flying"
@@ -26929,6 +27913,16 @@
         "sapphire": "RALTS has the ability to sense the emotions of people. If its TRAINER is in a cheerful mood, this POKéMON grows cheerful and joyous in the same way.",
         "emerald": "A RALTS has the power to sense the emotions of people and POKéMON with the horns on its head. It takes cover if it senses any hostility."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Trace",
+          "description": "Copies special ability."
+        }
+      ],
       "eggGroups": [
         "humanshape",
         "indeterminate"
@@ -27135,6 +28129,16 @@
         "sapphire": "KIRLIA uses the horns on its head to amplify its psychokinetic power. When the POKéMON uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
         "emerald": "A KIRLIA has the psychic power to create a rip in the dimensions and see into the future. It is said to dance with pleasure on sunny mornings."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Trace",
+          "description": "Copies special ability."
+        }
+      ],
       "eggGroups": [
         "humanshape",
         "indeterminate"
@@ -27347,6 +28351,16 @@
         "sapphire": "GARDEVOIR has the psychokinetic power to distort the dimensions and create a small black hole. This POKéMON will try to protect its TRAINER even at the risk of its own life.",
         "emerald": "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its TRAINER."
       },
+      "abilities": [
+        {
+          "name": "Synchronize",
+          "description": "Passes on status problems."
+        },
+        {
+          "name": "Trace",
+          "description": "Copies special ability."
+        }
+      ],
       "eggGroups": [
         "humanshape",
         "indeterminate"
@@ -27655,6 +28669,12 @@
         "sapphire": "If SURSKIT senses danger, it secretes a thick, sugary syrup from the tip of its head. There are some POKéMON that love eating this syrup.",
         "emerald": "They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water1",
         "bug"
@@ -27823,6 +28843,12 @@
         "sapphire": "MASQUERAIN’s antennas have eyelike patterns that usually give it an angry look. If the “eyes” are droopy and appear sad, it is said to be a sign that a heavy rainfall is on its way.",
         "emerald": "It intimidates foes with the large eyelike patterns on its antennae. Because it can’t fly if its wings get wet, it shelters itself from rain under large trees and eaves."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        }
+      ],
       "eggGroups": [
         "water1",
         "bug"
@@ -28019,6 +29045,16 @@
         "sapphire": "If SHROOMISH senses danger, it shakes its body and scatters spores from the top of its head. This POKéMON’s spores are so toxic, they make trees and weeds wilt.",
         "emerald": "It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many SHROOMISH feasting on composted soil."
       },
+      "abilities": [
+        {
+          "name": "Effect Spore",
+          "description": "Leaves spores on contact."
+        },
+        {
+          "name": "Poison Heal",
+          "description": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -28186,6 +29222,16 @@
         "sapphire": "The seeds ringing BRELOOM’s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this POKéMON’s seed will cause your stomach to rumble.",
         "emerald": "It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests."
       },
+      "abilities": [
+        {
+          "name": "Effect Spore",
+          "description": "Leaves spores on contact."
+        },
+        {
+          "name": "Poison Heal",
+          "description": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -28413,6 +29459,12 @@
         "sapphire": "SLAKOTH’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this POKéMON in motion.",
         "emerald": "It sleeps virtually all day and night long. It doesn’t change its nest its entire life, but it sometimes travels great distances by swimming in rivers."
       },
+      "abilities": [
+        {
+          "name": "Truant",
+          "description": "Moves only every two turns."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -28631,6 +29683,12 @@
         "sapphire": "VIGOROTH is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this POKéMON to run wild throughout the jungle before it can settle down.",
         "emerald": "It can’t keep still because its blood boils with energy. It runs through the fields and mountains all day to calm itself. If it doesn’t, it can’t sleep at night."
       },
+      "abilities": [
+        {
+          "name": "Vital Spirit",
+          "description": "Prevents sleep."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -28865,6 +29923,12 @@
         "sapphire": "Wherever SLAKING live, rings of over a yard in diameter appear in grassy fields. They are made by the POKéMON as it eats all the grass within reach while lying prone on the ground.",
         "emerald": "Hordes of SLAKING gather around trees when fruits come into season. They wait around patiently for ripened fruits to fall out of the trees."
       },
+      "abilities": [
+        {
+          "name": "Truant",
+          "description": "Moves only every two turns."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -29115,6 +30179,12 @@
         "sapphire": "NINCADA lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This POKéMON can’t withstand bright sunlight so avoids it.",
         "emerald": "It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil."
       },
+      "abilities": [
+        {
+          "name": "Compound Eyes",
+          "description": "Raises accuracy."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -29280,6 +30350,12 @@
         "sapphire": "If NINJASK is not trained properly, it will refuse to obey the TRAINER and cry loudly continuously. Because of this quality, this POKéMON is said to be one that puts the TRAINER’s abilities to the test.",
         "emerald": "Because it darts about vigorously at high speed, it is very difficult to see. Hearing its distinctive cries for too long induces a headache."
       },
+      "abilities": [
+        {
+          "name": "Speed Boost",
+          "description": "Gradually boosts SPEED."
+        }
+      ],
       "eggGroups": [
         "bug"
       ],
@@ -29474,6 +30550,12 @@
         "sapphire": "SHEDINJA is a peculiar POKéMON. It seems to appear unsought in a POKé BALL after a NINCADA evolves. This bizarre POKéMON is entirely immobile - it doesn’t even breathe.",
         "emerald": "A peculiar POKéMON that floats in air even though its wings remain completely still. The inside of its body is hollow and utterly dark."
       },
+      "abilities": [
+        {
+          "name": "Wonder Guard",
+          "description": "“Super effective” hits."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -29683,6 +30765,12 @@
         "sapphire": "WHISMUR is very timid. If it starts to cry loudly, it becomes startled by its own crying and cries even harder. When it finally stops crying, the POKéMON goes to sleep, all tired out.",
         "emerald": "Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this system, it can cry continually without having to catch its breath."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -29898,6 +30986,12 @@
         "sapphire": "LOUDRED shouts while stamping its feet. After it finishes shouting, this POKéMON becomes incapable of hearing anything for a while. This is considered to be a weak point.",
         "emerald": "It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -30127,6 +31221,12 @@
         "sapphire": "EXPLOUD communicates its feelings to the others by emitting whistle-like sounds from the tubes on its body. This POKéMON only raises its voice when it is in battle.",
         "emerald": "It has sound-generating organs all over its body. It communicates with others by adjusting the tone and volume of the cries it emits."
       },
+      "abilities": [
+        {
+          "name": "Soundproof",
+          "description": "Avoids sound-based moves."
+        }
+      ],
       "eggGroups": [
         "monster",
         "ground"
@@ -30405,6 +31505,16 @@
         "sapphire": "MAKUHITA has a tireless spirit - it will never give up hope. It eats a lot of food, gets plenty of sleep, and it trains very rigorously. By living that way, this POKéMON packs its body with energy.",
         "emerald": "It loves to toughen up its body above all else. If you hear quaking rumbles in a cave, it is the sound of MAKUHITA undertaking strenuous training."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -30628,6 +31738,16 @@
         "sapphire": "HARIYAMA’s thick body may appear fat, but it is actually a hunk of solid muscle. If this POKéMON bears down and tightens all its muscles, its body becomes as hard as a rock.",
         "emerald": "It has the habit of challenging others without hesitation to tests of strength. It’s been known to stand on train tracks and stop trains using forearm thrusts."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Guts",
+          "description": "Ups ATTACK if suffering."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -30833,6 +31953,16 @@
         "sapphire": "AZURILL’s tail is large and bouncy. It is packed full of the nutrients this POKéMON needs to grow. AZURILL can be seen bouncing and playing on its big, rubbery tail.",
         "emerald": "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Huge Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -30997,6 +32127,16 @@
         "sapphire": "NOSEPASS had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the POKéMON actually moves by a little over 3/8 of an inch every year.",
         "emerald": "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Magnet Pull",
+          "description": "Traps STEEL-type POKéMON."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -31192,6 +32332,16 @@
         "sapphire": "SKITTY is known to chase around playfully after its own tail. In the wild, this POKéMON lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
         "emerald": "A SKITTY’s adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Normalize",
+          "description": "Makes the Pokémon's moves all act normal-type."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -31404,6 +32554,16 @@
         "sapphire": "DELCATTY sleeps anywhere it wants without keeping a permanent nest. If other POKéMON approach it as it sleeps, this POKéMON will never fight - it will just move away somewhere else.",
         "emerald": "Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk."
       },
+      "abilities": [
+        {
+          "name": "Cute Charm",
+          "description": "Infatuates on contact."
+        },
+        {
+          "name": "Normalize",
+          "description": "Makes the Pokémon's moves all act normal-type."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -31689,6 +32849,16 @@
         "sapphire": "SABLEYE digs the ground with sharpened claws to find rocks that it eats. Substances in the eaten rocks crystallize and rise up to the POKéMON’s body surface.",
         "emerald": "It digs branching holes in caves using its sharp claws in search of food--raw gems. A SABLEYE lurks in darkness and is seen only rarely."
       },
+      "abilities": [
+        {
+          "name": "Keen Eye",
+          "description": "Prevents loss of accuracy."
+        },
+        {
+          "name": "Stall",
+          "description": "Makes the Pokémon move last within its move's priority bracket."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -32031,6 +33201,16 @@
         "sapphire": "Don’t be taken in by this POKéMON’s cute face - it’s very dangerous. MAWILE fools the foe into letting down its guard, then chomps down with its massive jaws. The steel jaws are really horns that have been transformed.",
         "emerald": "Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        }
+      ],
       "eggGroups": [
         "ground",
         "fairy"
@@ -32291,6 +33471,16 @@
         "sapphire": "ARON has a body of steel. With one all-out charge, this POKéMON can demolish even a heavy dump truck. The destroyed dump truck then becomes a handy meal for the POKéMON.",
         "emerald": "A POKéMON that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -32523,6 +33713,16 @@
         "sapphire": "LAIRON feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the POKéMON often clashes with humans mining the iron ore.",
         "emerald": "When two LAIRON meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -32731,6 +33931,16 @@
         "sapphire": "AGGRON is surprisingly protective of its environment. If its mountain is ravaged by a landslide or a fire, this POKéMON will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
         "emerald": "Its iron horns grow longer a little at a time. They are used to determine the AGGRON’s age. The gouges in its armor are worn with pride as mementos from battles."
       },
+      "abilities": [
+        {
+          "name": "Sturdy",
+          "description": "Negates 1-hit KO attacks."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "monster"
       ],
@@ -33022,6 +34232,12 @@
         "sapphire": "MEDITITE heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this POKéMON’s training.",
         "emerald": "It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly."
       },
+      "abilities": [
+        {
+          "name": "Pure Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -33251,6 +34467,12 @@
         "sapphire": "Through the power of meditation, MEDICHAM developed its sixth sense. It gained the ability to use psychokinetic powers. This POKéMON is known to meditate for a whole month without eating.",
         "emerald": "Through crushingly harsh yoga training, it gained the power to foretell its foe’s actions. It battles with elegant, dance- like movement."
       },
+      "abilities": [
+        {
+          "name": "Pure Power",
+          "description": "Raises ATTACK."
+        }
+      ],
       "eggGroups": [
         "humanshape"
       ],
@@ -33500,6 +34722,16 @@
         "sapphire": "ELECTRIKE runs faster than the human eye can follow. The friction from running is converted into electricity, which is then stored in this POKéMON’s fur.",
         "emerald": "It generates electricity using friction from the atmosphere. In seasons with especially arid air, its entire body blazes with violent showers of sparks."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -33686,6 +34918,16 @@
         "sapphire": "MANECTRIC discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This POKéMON creates thunderclouds above its head.",
         "emerald": "Because lightning falls in their vicinities, MANECTRIC were thought to have been born from lightning. In battle, they create thunderclouds."
       },
+      "abilities": [
+        {
+          "name": "Static",
+          "description": "Paralyzes on contact."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "Draws electrical moves."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -33882,6 +35124,12 @@
         "sapphire": "When PLUSLE is cheering on its partner, it flashes with electric sparks from all over its body. If its partner loses, this POKéMON cries loudly.",
         "emerald": "It has the trait of cheering on its fellow POKéMON. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering."
       },
+      "abilities": [
+        {
+          "name": "Plus",
+          "description": "Powers up with MINUS."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -34066,6 +35314,12 @@
         "sapphire": "MINUN loves to cheer on its partner in battle. It gives off sparks from its body while it is doing so. If its partner is in trouble, this POKéMON gives off increasing amounts of sparks.",
         "emerald": "At a meeting of POKéMON academics, it was announced that simultaneous exposure to electricity from a PLUSLE and MINUN will promote circulation and boost vitality."
       },
+      "abilities": [
+        {
+          "name": "Minus",
+          "description": "Powers up with PLUS."
+        }
+      ],
       "eggGroups": [
         "fairy"
       ],
@@ -34250,6 +35504,16 @@
         "sapphire": "VOLBEAT’s tail glows like a lightbulb. With other VOLBEAT, it uses its tail to draw geometric shapes in the night sky. This POKéMON loves the sweet aroma given off by ILLUMISE.",
         "emerald": "With their taillights lit, VOLBEAT fly in a swarm, drawing geometric designs in the night sky. They move their nests if their pond water becomes dirty."
       },
+      "abilities": [
+        {
+          "name": "Illuminate",
+          "description": "Encounter rate increases."
+        },
+        {
+          "name": "Swarm",
+          "description": "Ups BUG moves in a pinch."
+        }
+      ],
       "eggGroups": [
         "bug",
         "humanshape"
@@ -34464,6 +35728,16 @@
         "sapphire": "ILLUMISE leads a flight of illuminated VOLBEAT to draw signs in the night sky. This POKéMON is said to earn greater respect from its peers by composing more complex designs in the sky.",
         "emerald": "A nocturnal POKéMON that becomes active upon nightfall. It leads a VOLBEAT swarm to draw patterns in the night sky. Over 200 different patterns have been confirmed."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Tinted Lens",
+          "description": "Doubles damage inflicted with not-very-effective moves."
+        }
+      ],
       "eggGroups": [
         "bug",
         "humanshape"
@@ -34679,6 +35953,16 @@
         "sapphire": "On extremely rare occasions, a ROSELIA is said to appear with its flowers in unusual colors. The thorns on this POKéMON’s head contain a vicious poison.",
         "emerald": "A ROSELIA that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        },
+        {
+          "name": "Poison Point",
+          "description": "Poisons foe on contact."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "plant"
@@ -34879,6 +36163,16 @@
         "sapphire": "Most of GULPIN’s body is made up of its stomach - its heart and brain are very small in comparison. This POKéMON’s stomach contains special enzymes that dissolve anything.",
         "emerald": "This POKéMON’s stomach fluid can even digest scrap iron. In one gulp, it can swallow something that is as large as itself."
       },
+      "abilities": [
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "Prevents item theft."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -35076,6 +36370,16 @@
         "sapphire": "SWALOT has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this POKéMON’s mouth.",
         "emerald": "Its powerful stomach acid is capable of digesting almost anything. The one thing in the whole world a SWALOT can’t digest is its own stomach."
       },
+      "abilities": [
+        {
+          "name": "Liquid Ooze",
+          "description": "Draining causes injury."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "Prevents item theft."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -35330,6 +36634,12 @@
         "sapphire": "If anything invades CARVANHA’s territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this POKéMON turns suddenly timid.",
         "emerald": "CARVANHA attack ships in swarms, making them sink. Although it is said to be a very vicious POKéMON, it timidly flees as soon as it finds itself alone."
       },
+      "abilities": [
+        {
+          "name": "Rough Skin",
+          "description": "Hurts to touch."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -35659,6 +36969,12 @@
         "sapphire": "SHARPEDO can swim at speeds of up to 75 mph by jetting seawater out of its backside. This POKéMON’s drawback is its inability to swim long distances.",
         "emerald": "The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour."
       },
+      "abilities": [
+        {
+          "name": "Rough Skin",
+          "description": "Hurts to touch."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -36473,6 +37789,16 @@
         "sapphire": "WAILMER can store water inside its body to transform itself into a ball for bouncing around on the ground. By filling itself up with more water, this POKéMON can elevate the height of its bounces.",
         "emerald": "While this POKéMON usually lives in the sea, it can survive on land, although not too long. It loses vitality if its body becomes dried out."
       },
+      "abilities": [
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        },
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        }
+      ],
       "eggGroups": [
         "ground",
         "water2"
@@ -36683,6 +38009,16 @@
         "sapphire": "When chasing prey, WAILORD herds them by leaping out of the water and making a humongous splash. It is breathtaking to see this POKéMON leaping out of the sea with others in its pod.",
         "emerald": "It breathes through nostrils that it raises above the sea. By inhaling to its maximum capacity, a WAILORD can dive close to 10,000 feet beneath the waves."
       },
+      "abilities": [
+        {
+          "name": "Water Veil",
+          "description": "Prevents burns."
+        },
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        }
+      ],
       "eggGroups": [
         "ground",
         "water2"
@@ -36921,6 +38257,16 @@
         "sapphire": "NUMEL stores magma of almost 2,200 degrees F within its body. If it gets wet, the magma cools and hardens. In that event, the POKéMON’s body grows heavy and its movements become sluggish.",
         "emerald": "A NUMEL stores boiling magma in the hump on its back. It is a hardy POKéMON that can transport a 220-pound load. It has served humans at work since long ago."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Simple",
+          "description": "Doubles the Pokémon's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -37099,6 +38445,16 @@
         "sapphire": "The humps on CAMERUPT’s back are formed by a transformation of its bones. They sometimes blast out molten magma. This POKéMON apparently erupts often when it is enraged.",
         "emerald": "A POKéMON that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption."
       },
+      "abilities": [
+        {
+          "name": "Magma Armor",
+          "description": "Prevents freezing."
+        },
+        {
+          "name": "Solid Rock",
+          "description": "Decreases damage taken from super-effective moves by 1/4."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -37311,6 +38667,16 @@
         "sapphire": "TORKOAL generates energy by burning coal. It grows weaker as the fire dies down. When it is preparing for battle, this POKéMON burns more coal.",
         "emerald": "It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive’s horn."
       },
+      "abilities": [
+        {
+          "name": "White Smoke",
+          "description": "Prevents ability reduction."
+        },
+        {
+          "name": "Drought",
+          "description": "Summons sunlight in battle."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -37496,6 +38862,16 @@
         "sapphire": "SPOINK keeps a pearl on top of its head. The pearl functions to amplify this POKéMON’s psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
         "emerald": "A POKéMON that manipulates psychic power at will. It doesn’t stop bouncing even when it is asleep. It loves eating mushrooms that grow underground."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -37695,6 +39071,16 @@
         "sapphire": "GRUMPIG uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This POKéMON’s black pearls are valuable as works of art.",
         "emerald": "It stores power in the black pearls on its forehead. When it uses psychic power, it performs an odd dance step. Its style of dancing became hugely popular overseas."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -37929,6 +39315,16 @@
         "sapphire": "No two SPINDA are said to have identical spot patterns on their hides. This POKéMON moves in a curious manner as if it is stumbling in dizziness. Its lurching movements can cause the opponent to become confused.",
         "emerald": "It is distinguished by a pattern of spots that is always different. Its unsteady, tottering walk has the effect of fouling its foe’s aim."
       },
+      "abilities": [
+        {
+          "name": "Own Tempo",
+          "description": "Prevents confusion."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Doubles evasion when confused."
+        }
+      ],
       "eggGroups": [
         "ground",
         "humanshape"
@@ -38179,6 +39575,16 @@
         "sapphire": "TRAPINCH is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This POKéMON can go a whole week without access to any water.",
         "emerald": "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Arena Trap",
+          "description": "Prevents fleeing."
+        }
+      ],
       "eggGroups": [
         "bug",
         "dragon"
@@ -38345,6 +39751,12 @@
         "sapphire": "VIBRAVA’s wings have not yet completed the process of growing. Rather than flying long distances, they are more useful for generating ultrasonic waves by vibrating.",
         "emerald": "It looses ultrasonic waves by rubbing its wings together. Since a VIBRAVA’s wings are still in the process of growing, it can only fly short distances."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "bug",
         "dragon"
@@ -38532,6 +39944,12 @@
         "sapphire": "FLYGON whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the “singing” is the only thing that can be heard in a sandstorm, this POKéMON is said to be the desert spirit.",
         "emerald": "The flapping of its wings sounds like singing. To prevent detection by enemies, it hides itself by flapping up a cloud of desert sand."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "bug",
         "dragon"
@@ -38747,6 +40165,12 @@
         "sapphire": "The more arid and harsh the environment, the more pretty and fragrant a flower CACNEA grows. This POKéMON battles by wildly swinging its thorny arms.",
         "emerald": "CACNEA live in deserts with virtually no rainfall. It battles by swinging its thick, spiked arms. Once a year, a yellow flower blooms."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "plant",
         "humanshape"
@@ -38933,6 +40357,12 @@
         "sapphire": "If a traveler is going through a desert in the thick of night, CACTURNE will follow in a ragtag group. The POKéMON are biding their time, waiting for the traveler to tire and become incapable of moving.",
         "emerald": "After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night."
       },
+      "abilities": [
+        {
+          "name": "Sand Veil",
+          "description": "Ups evasion in a sandstorm."
+        }
+      ],
       "eggGroups": [
         "plant",
         "humanshape"
@@ -39151,6 +40581,12 @@
         "sapphire": "SWABLU loves to make things clean. If it spots something dirty, it will wipe and polish it with its cottony wings. If its wings become dirty, this POKéMON finds a stream and showers itself.",
         "emerald": "A POKéMON that has wings like cottony clouds. After enduring winter, in which little food is available, SWABLU flocks move closer to towns in the spring."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "flying",
         "dragon"
@@ -39339,6 +40775,12 @@
         "sapphire": "ALTARIA sings in a gorgeous soprano. Its wings are like cotton clouds. This POKéMON catches updrafts with its buoyant wings and soars way up into the wild blue yonder.",
         "emerald": "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth."
       },
+      "abilities": [
+        {
+          "name": "Natural Cure",
+          "description": "Heals upon switching out."
+        }
+      ],
       "eggGroups": [
         "flying",
         "dragon"
@@ -39569,6 +41011,12 @@
         "sapphire": "ZANGOOSE usually stays on all fours, but when angered, it gets up on its hind legs and extends its claws. This POKéMON shares a bitter rivalry with SEVIPER that dates back over generations.",
         "emerald": "When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any SEVIPER."
       },
+      "abilities": [
+        {
+          "name": "Immunity",
+          "description": "Prevents poisoning."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -39826,6 +41274,12 @@
         "sapphire": "SEVIPER’s swordlike tail serves two purposes - it slashes foes and douses them with secreted poison. This POKéMON will not give up its long- running blood feud with ZANGOOSE.",
         "emerald": "SEVIPER and ZANGOOSE are eternal rivals. It counters a ZANGOOSE’s dazzling agility with its swordlike tail, which also oozes a horrible poison."
       },
+      "abilities": [
+        {
+          "name": "Shed Skin",
+          "description": "Heals the body by shedding."
+        }
+      ],
       "eggGroups": [
         "ground",
         "dragon"
@@ -40095,6 +41549,12 @@
         "sapphire": "LUNATONE becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The POKéMON’s intimidating red eyes cause all those who see it to become transfixed with fear.",
         "emerald": "It becomes very active on the night of a full moon. This POKéMON was first discovered 40 years ago at the site of a meteor strike."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -40362,6 +41822,12 @@
         "sapphire": "Sunlight is the source of SOLROCK’s power. It is said to possess the ability to read the emotions of others. This POKéMON gives off intense heat while rotating its body.",
         "emerald": "Solar energy is the source of this POKéMON’s power. On sunny days, groups of SOLROCK line up facing the sun and absorb its light."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -40721,6 +42187,16 @@
         "sapphire": "BARBOACH’s body is covered with a slimy film. If a foe grabs it, this POKéMON just slips out of the enemy’s grip. This POKéMON grows weak if the slimy coating dries up.",
         "emerald": "Its body is covered with a slimy film. The film acts as a barrier to prevent germs in muddy water from entering the BARBOACH’s body."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Anticipation",
+          "description": "Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -40942,6 +42418,16 @@
         "sapphire": "If WHISCASH goes on a wild rampage, it sets off a quake-like tremor with a radius of over three miles. This POKéMON has the ability to predict real earthquakes.",
         "emerald": "Mysteriously, it can foretell earthquakes. In the daytime, it sleeps in mud at the bottom of a pond. When it awakens, it continually feeds throughout the night."
       },
+      "abilities": [
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        },
+        {
+          "name": "Anticipation",
+          "description": "Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -41203,6 +42689,16 @@
         "sapphire": "CORPHISH catches prey with its sharp claws. It has no likes or dislikes when it comes to food - it will eat anything. This POKéMON has no trouble living in filthy water.",
         "emerald": "Once it grips prey with its large pincers, it will never let go, no matter what. It is a hardy POKéMON that can thrive in any environment."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -41409,6 +42905,16 @@
         "sapphire": "CRAWDAUNT molts (sheds) its shell regularly. Immediately after molting, its shell is soft and tender. Until the shell hardens, this POKéMON hides in its streambed burrow to avoid attack from its foes.",
         "emerald": "A brutish POKéMON that loves to battle. A veteran CRAWDAUNT that has prevailed in hundreds of battles has giant pincers marked with countless scars."
       },
+      "abilities": [
+        {
+          "name": "Hyper Cutter",
+          "description": "Prevents ATTACK reduction."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water3"
@@ -41642,6 +43148,12 @@
         "sapphire": "As soon as it spots others of its kind, BALTOY congregates with them and then begins crying noisily in unison. This POKéMON sleeps while cleverly balancing itself on its one foot.",
         "emerald": "A BALTOY moves by spinning on its single foot. It has been depicted in murals adorning the walls of a once-bustling city in an ancient age."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -41860,6 +43372,12 @@
         "sapphire": "CLAYDOL is an enigma that appeared from a clay statue made by an ancient civilization dating back 20,000 years. This POKéMON shoots beams from both its hands.",
         "emerald": "A CLAYDOL sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the POKéMON’s manipulation of psychic power."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -42108,6 +43626,12 @@
         "sapphire": "LILEEP is an ancient POKéMON that was regenerated from a fossil. It remains permanently anchored to a rock. From its immobile perch, this POKéMON intently scans for prey with its two eyes.",
         "emerald": "It disguises itself as seaweed by making its tentacles sway. Unsuspecting prey that come too close are swallowed whole. It became extinct 100 million years ago."
       },
+      "abilities": [
+        {
+          "name": "Suction Cups",
+          "description": "Firmly anchors the body."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -42267,6 +43791,12 @@
         "sapphire": "CRADILY’s body serves as an anchor, preventing it from being washed away in rough seas. This POKéMON secretes a strong digestive fluid from its tentacles.",
         "emerald": "It drags its heavy body along the seafloor. It makes its nest in the shallows of warm seas. CRADILY can be seen on beaches when the tide goes out."
       },
+      "abilities": [
+        {
+          "name": "Suction Cups",
+          "description": "Firmly anchors the body."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -42486,6 +44016,12 @@
         "sapphire": "ANORITH is said to be a type of POKéMON predecessor, with eight wings at the sides of its body. This POKéMON swam in the primordial sea by undulating these eight wings.",
         "emerald": "It was resurrected from a fossil using the power of science. It swims by undulating the eight wings at its sides. They were feet that adapted to life in the sea."
       },
+      "abilities": [
+        {
+          "name": "Battle Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -42658,6 +44194,12 @@
         "sapphire": "ARMALDO is a POKéMON species that became extinct in prehistoric times. This POKéMON is said to have walked on its hind legs, which would have been more convenient for life on land.",
         "emerald": "ARMALDO usually lives on land. However, when it hunts for prey, it dives beneath the ocean. It swims around using its two large wings."
       },
+      "abilities": [
+        {
+          "name": "Battle Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water3"
       ],
@@ -42864,6 +44406,16 @@
         "sapphire": "While FEEBAS’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this POKéMON is also slow and dimwitted, making it an easy catch.",
         "emerald": "FEEBAS live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few TRAINERS raise it."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Oblivious",
+          "description": "Prevents attraction."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -43003,6 +44555,16 @@
         "sapphire": "MILOTIC live at the bottom of large lakes. When this POKéMON’s body glows a vivid pink, it releases a pulsing wave of energy that brings soothing calm to restless spirits.",
         "emerald": "It is said to live at the bottom of large lakes. Considered to be the most beautiful of all POKéMON, it has been depicted in paintings and statues."
       },
+      "abilities": [
+        {
+          "name": "Marvel Scale",
+          "description": "Ups DEFENSE if suffering."
+        },
+        {
+          "name": "Competitive",
+          "description": "Raises Special Attack by two stages upon having any stat lowered."
+        }
+      ],
       "eggGroups": [
         "water1",
         "dragon"
@@ -43194,6 +44756,12 @@
         "sapphire": "CASTFORM borrows the power of nature to transform itself into the guises of the sun, rain clouds, and snow clouds. This POKéMON’s feelings change with the weather.",
         "emerald": "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure."
       },
+      "abilities": [
+        {
+          "name": "Forecast",
+          "description": "Changes with the weather."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "indeterminate"
@@ -43456,6 +45024,12 @@
         "sapphire": "KECLEON alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
         "emerald": "A POKéMON that has the ability to alter its body colors to match its surroundings. A KECLEON reverts to its original colors if it is startled."
       },
+      "abilities": [
+        {
+          "name": "Color Change",
+          "description": "Changes type to foe’s move."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -43817,6 +45391,16 @@
         "sapphire": "SHUPPET grows by feeding on dark emotions, such as vengefulness and envy, in the hearts of people. It roams through cities in search of grudges that taint people.",
         "emerald": "This POKéMON roams about deep in the night seeking such negative emotions as grudges and envy. It retreats to its nest when the sun begins to rise."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Frisk",
+          "description": "Reveals an opponent's held item upon entering battle."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -44040,6 +45624,16 @@
         "sapphire": "A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as BANETTE. The POKéMON’s energy would escape if it were to ever open its mouth.",
         "emerald": "An abandoned plush doll became this POKéMON. They are said to live in garbage dumps and wander about in search of the children that threw them away."
       },
+      "abilities": [
+        {
+          "name": "Insomnia",
+          "description": "Prevents sleep."
+        },
+        {
+          "name": "Frisk",
+          "description": "Reveals an opponent's held item upon entering battle."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -44345,6 +45939,12 @@
         "sapphire": "DUSKULL wanders lost among the deep darkness of midnight. There is an oft- told admonishment given to misbehaving children that this POKéMON will spirit away bad children who earn scoldings from their mothers.",
         "emerald": "A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal POKéMON that roams about under the cloak of darkness."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -44568,6 +46168,12 @@
         "sapphire": "DUSCLOPS absorbs anything, however large the object may be. This POKéMON hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do DUSCLOPS’s bidding.",
         "emerald": "It is thought that its body is hollow with only a spectral ball of fire burning inside. However, no one has been able to confirm this theory as fact."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -44812,6 +46418,16 @@
         "sapphire": "Children of the southern tropics eat as snacks the fruit that grows in bunches around the neck of TROPIUS. This POKéMON flies by flapping the leaves on its back as if they were wings.",
         "emerald": "It flies by flapping its broad leaves. The bunch of fruit that grows around its neck is deliciously sweet. In the spring, it scatters pollen from its neck."
       },
+      "abilities": [
+        {
+          "name": "Chlorophyll",
+          "description": "Raises SPEED in sunshine."
+        },
+        {
+          "name": "Solar Power",
+          "description": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+        }
+      ],
       "eggGroups": [
         "monster",
         "plant"
@@ -45023,6 +46639,12 @@
         "sapphire": "In high winds, CHIMECHO cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This POKéMON plucks berries with its long tail and eats them.",
         "emerald": "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "indeterminate"
       ],
@@ -45233,6 +46855,16 @@
         "sapphire": "ABSOL has the ability to foretell the coming of natural disasters. It lives in a harsh, rugged mountain environment. This POKéMON very rarely ventures down from the mountains.",
         "emerald": "It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived POKéMON that has a life-span of 100 years."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        },
+        {
+          "name": "Super Luck",
+          "description": "Raises moves' critical hit rates one stage."
+        }
+      ],
       "eggGroups": [
         "ground"
       ],
@@ -45522,6 +47154,12 @@
         "sapphire": "WYNAUT gather on moonlit nights to play by squeezing up against each other. By being squeezed, this POKéMON gains endurance and is trained to dole out powerful counterattacks.",
         "emerald": "A WYNAUT loves to eat sweet fruits. It cleverly picks fruits using its earlike arms. They gather in fruit gardens, drawn by the fragrance."
       },
+      "abilities": [
+        {
+          "name": "Shadow Tag",
+          "description": "Prevents the foe’s escape."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -45597,6 +47235,16 @@
         "sapphire": "SNORUNT survives by eating only snow and ice. Old folklore claims that a house visited by this POKéMON is sure to prosper for many generations to come.",
         "emerald": "They tend to move about in groups of around five SNORUNT. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        },
+        {
+          "name": "Ice Body",
+          "description": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "mineral"
@@ -45768,6 +47416,16 @@
         "sapphire": "GLALIE has the ability to freely control ice. For example, it can instantly freeze its foe solid. After immobilizing its foe in ice, this POKéMON enjoys eating it in leisurely fashion.",
         "emerald": "A GLALIE has the power to instantaneously freeze moisture in the atmosphere. A dazzling cloud of diamondlike ice crystals forms around its body."
       },
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        },
+        {
+          "name": "Ice Body",
+          "description": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "fairy",
         "mineral"
@@ -46029,6 +47687,16 @@
         "sapphire": "SPHEAL always travels by rolling around on its ball-like body. When the season for ice floes arrives, this POKéMON can be seen rolling about on ice and crossing the sea.",
         "emerald": "It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Ice Body",
+          "description": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -46231,6 +47899,16 @@
         "sapphire": "SEALEO often balances and rolls things on the tip of its nose. While the POKéMON is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not.",
         "emerald": "SEALEO live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Ice Body",
+          "description": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -46432,6 +48110,16 @@
         "sapphire": "WALREIN swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Its thick layer of blubber makes enemy attacks bounce off harmlessly.",
         "emerald": "To protect its herd, the leader battles anything that invades its territory, even at the cost of its life. Its tusks may snap off in battle."
       },
+      "abilities": [
+        {
+          "name": "Thick Fat",
+          "description": "Heat-and-cold protection."
+        },
+        {
+          "name": "Ice Body",
+          "description": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+        }
+      ],
       "eggGroups": [
         "water1",
         "ground"
@@ -46657,6 +48345,12 @@
         "sapphire": "CLAMPERL grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this POKéMON is getting close to evolution.",
         "emerald": "A CLAMPERL slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy."
       },
+      "abilities": [
+        {
+          "name": "Shell Armor",
+          "description": "Blocks critical hits."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -46799,6 +48493,12 @@
         "sapphire": "HUNTAIL’s tail is shaped like a fish. It uses the tail to attract prey, then swallows the prey whole with its large, gaping mouth. This POKéMON swims by wiggling its slender body like a snake.",
         "emerald": "To withstand the crushing pressure of water deep under the sea, its spine is very thick and sturdy. Its tail, which is shaped like a small fish, has eyes that light up."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -46964,6 +48664,12 @@
         "sapphire": "Although GOREBYSS is the very picture of elegance and beauty while swimming, it is also cruel. When it spots prey, this POKéMON inserts its thin mouth into the prey’s body and drains the prey of its body fluids.",
         "emerald": "A GOREBYSS siphons the body fluids of prey through its thin, tubular mouth. Its light pink body color turns vivid when it finishes feeding."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water1"
       ],
@@ -47155,6 +48861,16 @@
         "sapphire": "RELICANTH is a rare species that was discovered in deep-sea explorations. This POKéMON’s body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks.",
         "emerald": "A POKéMON that was once believed to have been extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        },
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "water1",
         "water2"
@@ -47398,6 +49114,12 @@
         "sapphire": "LUVDISC’s heart-shaped body is a symbol of love and romance. It is said that any couple meeting this POKéMON is promised a loving relationship that never ends.",
         "emerald": "LUVDISC make the branches of CORSOLA their nests. There is a custom from long ago of giving a LUVDISC as a gift to express one’s feelings of love."
       },
+      "abilities": [
+        {
+          "name": "Swift Swim",
+          "description": "Raises SPEED in rain."
+        }
+      ],
       "eggGroups": [
         "water2"
       ],
@@ -47574,6 +49296,12 @@
         "sapphire": "BAGON harbors a never-ending dream of one day soaring high among the clouds. As if trying to dispel its frustration over its inability to fly, this POKéMON slams its hard head against huge rocks and shatters them into pebbles.",
         "emerald": "Although it is small, this POKéMON is very powerful because its body is a bundle of muscles. It launches head-butts with its ironlike skull."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "dragon"
       ],
@@ -47761,6 +49489,12 @@
         "sapphire": "Covering SHELGON’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this POKéMON hides away in a cavern.",
         "emerald": "It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve."
       },
+      "abilities": [
+        {
+          "name": "Rock Head",
+          "description": "Prevents recoil damage."
+        }
+      ],
       "eggGroups": [
         "dragon"
       ],
@@ -47961,6 +49695,12 @@
         "sapphire": "By evolving into SALAMENCE, this POKéMON finally realizes its long-held dream of growing wings. To express its joy, it flies and wheels all over the sky while spouting flames from its mouth.",
         "emerald": "After many long years, its cellular structure underwent a sudden mutation to grow wings. When angered, it loses all thought and rampages out of control."
       },
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "description": "Lowers the foe’s ATTACK."
+        }
+      ],
       "eggGroups": [
         "dragon"
       ],
@@ -48208,6 +49948,12 @@
         "sapphire": "BELDUM keeps itself floating by generating a magnetic force that repels earth’s natural magnetism. When it sleeps, this POKéMON anchors itself to a cliff using the hooks on its rear.",
         "emerald": "When BELDUM gather in a swarm, they move in perfect unison as if they were but one POKéMON. They communicate with each other using brain waves."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -48249,6 +49995,12 @@
         "sapphire": "When two BELDUM fuse together, METANG is formed. The brains of the BELDUM are joined by a magnetic nervous system. This POKéMON turns its arms to the rear for traveling at high speed.",
         "emerald": "The claws tipping its arms pack the destructive power to tear through thick iron sheets as if they were silk. It flies at over 60 miles per hour."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -48452,6 +50204,12 @@
         "sapphire": "METAGROSS is the result of two METANG achieving fusion. When hunting, this POKéMON pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.",
         "emerald": "METAGROSS has four brains that are joined by a complex neural network. As a result of integration, this POKéMON is smarter than a supercomputer."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "mineral"
       ],
@@ -48688,6 +50446,12 @@
         "sapphire": "REGIROCK’s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
         "emerald": "A POKéMON that is made entirely of rocks and boulders. If parts of its body chip off in battle, REGIROCK repairs itself by adding new rocks."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -48899,6 +50663,12 @@
         "sapphire": "REGICE cloaks itself with frigid air of negative 328 degrees F. Things will freeze solid just by going near this POKéMON. Its icy body is so cold, it will not melt even if it is immersed in magma.",
         "emerald": "Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -49110,6 +50880,12 @@
         "sapphire": "REGISTEEL was imprisoned by people in ancient times. The metal composing its body is thought to be a curious substance that is not of this earth.",
         "emerald": "Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly."
       },
+      "abilities": [
+        {
+          "name": "Clear Body",
+          "description": "Prevents ability reduction."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -49360,6 +51136,12 @@
         "sapphire": "LATIAS is highly intelligent and capable of understanding human speech. It is covered with a glass-like down. The POKéMON enfolds its body with its down and refracts light to alter its appearance.",
         "emerald": "They make a small herd of only several members. They rarely make contact with people or other POKéMON. They disappear if they sense enemies."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -49659,6 +51441,12 @@
         "sapphire": "LATIOS will only open its heart to a TRAINER with a compassionate spirit. This POKéMON can fly faster than a jet plane by folding its forelegs to minimize air resistance.",
         "emerald": "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages."
       },
+      "abilities": [
+        {
+          "name": "Levitate",
+          "description": "Not hit by GROUND attacks."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -49947,6 +51735,12 @@
         "sapphire": "KYOGRE is named in mythology as the POKéMON that expanded the sea by covering the land with torrential rains and towering tidal waves. It took to sleep after a cataclysmic battle with GROUDON.",
         "emerald": "KYOGRE has appeared in mythology as the creator of the sea. After long years of feuding with GROUDON, it took to sleep at the bottom of the sea."
       },
+      "abilities": [
+        {
+          "name": "Drizzle",
+          "description": "Summons rain in battle."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50203,6 +51997,12 @@
         "sapphire": "GROUDON has the power to scatter rain clouds and make water evaporate with light and heat. It came as a savior to people who had been suffering from terrible floods.",
         "emerald": "GROUDON has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening."
       },
+      "abilities": [
+        {
+          "name": "Drought",
+          "description": "Summons sunlight in battle."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50460,6 +52260,12 @@
         "sapphire": "RAYQUAZA is said to have lived for hundreds of millions of years in the earth’s ozone layer, above the clouds. Its existence had been completely unknown because it lived so high in the sky.",
         "emerald": "A POKéMON that flies endlessly in the ozone layer. It is said it would descend to the ground if KYOGRE and GROUDON were to fight."
       },
+      "abilities": [
+        {
+          "name": "Air Lock",
+          "description": "Negates weather effects."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50734,6 +52540,12 @@
         "sapphire": "JIRACHI will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.",
         "emerald": "JIRACHI is said to make wishes come true. While it sleeps, a tough crystalline shell envelops the body to protect it from enemies."
       },
+      "abilities": [
+        {
+          "name": "Serene Grace",
+          "description": "Promotes added effects."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],
@@ -50966,6 +52778,12 @@
         "sapphire": "DEOXYS emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This POKéMON shoots lasers from the crystalline organ on its chest.",
         "emerald": "A POKéMON that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed."
       },
+      "abilities": [
+        {
+          "name": "Pressure",
+          "description": "Raises foe’s PP usage."
+        }
+      ],
       "eggGroups": [
         "no-eggs"
       ],

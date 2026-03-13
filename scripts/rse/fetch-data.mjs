@@ -23,6 +23,9 @@ const HOENN_MAX = 386
 const NATIONAL_MAX = 251
 const RSE_VERSIONS = ['ruby', 'sapphire', 'emerald']
 
+// Cache ability descriptions to avoid re-fetching the same ability
+const abilityCache = new Map()
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
@@ -84,6 +87,22 @@ function prettifyMoveName(name) {
     .split('-')
     .map(w => w.charAt(0).toUpperCase() + w.slice(1))
     .join(' ')
+}
+
+async function fetchAbilityDescription(url) {
+  if (abilityCache.has(url)) return abilityCache.get(url)
+  const data = await fetchJson(url)
+  await sleep(DELAY_MS)
+  // Prefer game-specific flavor text, fall back to short_effect
+  const ft = data.flavor_text_entries.find(
+    e => e.language.name === 'en' && e.version_group.name === 'ruby-sapphire'
+  )
+  const fallback = data.effect_entries.find(e => e.language.name === 'en')
+  const desc = ft
+    ? ft.flavor_text.replace(/[\f\n\r\u000c]/g, ' ').replace(/\s+/g, ' ').trim()
+    : fallback?.short_effect || ''
+  abilityCache.set(url, desc)
+  return desc
 }
 
 function extractStats(data) {
@@ -204,6 +223,16 @@ async function fetchPokemon(id, total) {
   const eggGroups = species.egg_groups.map(g => g.name)
   const stats = extractStats(data)
 
+  // Extract abilities (Gen 3 has no hidden abilities)
+  const abilities = []
+  for (const ab of data.abilities.filter(a => !a.is_hidden).sort((a, b) => a.slot - b.slot)) {
+    const desc = await fetchAbilityDescription(ab.ability.url)
+    abilities.push({
+      name: prettifyMoveName(ab.ability.name),
+      description: desc,
+    })
+  }
+
   // Build learnset — union of ruby-sapphire and emerald version groups
   const seen = new Set()
   const learnset = { levelUp: [], tmhm: [], tutor: [], egg: [] }
@@ -249,6 +278,7 @@ async function fetchPokemon(id, total) {
     exclusivity: getVersionExclusivity(id, encounters),
     encounters,
     flavorText,
+    abilities,
     eggGroups,
     stats,
     learnset,

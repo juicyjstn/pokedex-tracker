@@ -361,6 +361,25 @@ export function LocationPanel() {
                 <p className="text-xs text-gray-400 dark:text-gray-500 italic">No Pokédex entry available.</p>
               )}
 
+              {/* Abilities */}
+              {p.abilities?.length > 0 && (
+                <div>
+                  <div className="text-[10px] font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wide mb-1">
+                    {p.abilities.length === 1 ? 'Ability' : 'Abilities'}
+                  </div>
+                  <div className="space-y-1.5">
+                    {p.abilities.map(ab => (
+                      <div key={ab.name} className="rounded-md bg-gray-50 dark:bg-gray-700/50 px-2.5 py-1.5">
+                        <div className="text-xs font-semibold text-gray-700 dark:text-gray-200">{ab.name}</div>
+                        {ab.description && (
+                          <p className="text-[11px] text-gray-500 dark:text-gray-400 leading-snug mt-0.5">{ab.description}</p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Egg groups — clickable to filter grid */}
               {p.eggGroups?.length > 0 && (
                 <div>
