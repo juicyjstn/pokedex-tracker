@@ -21,8 +21,8 @@ export function FilterBar({ totalCount, filteredCount }) {
   const {
     gameConfig,
     dexView, setDexView,
-    searchQuery, filterType, filterLocation, filterVersion, filterCaught, filterEggGroups, sortBy,
-    locations, setSearch, setFilterType, setFilterLocation, setFilterVersion,
+    searchQuery, filterType, filterLocation, filterMethod, filterVersion, filterCaught, filterEggGroups, sortBy,
+    locations, methods, setSearch, setFilterType, setFilterLocation, setFilterMethod, setFilterVersion,
     setFilterCaught, setFilterEggGroups, setSortBy, resetFilters,
   } = usePokemonStore()
 
@@ -54,7 +54,7 @@ export function FilterBar({ totalCount, filteredCount }) {
     : filterEggGroups.length === 1 ? formatEggGroup(filterEggGroups[0])
     : `${filterEggGroups.length} Groups`
 
-  const isFiltered = searchQuery || filterType || filterLocation || filterVersion || filterCaught || filterEggGroups.length > 0
+  const isFiltered = searchQuery || filterType || filterLocation || filterMethod || filterVersion || filterCaught || filterEggGroups.length > 0
 
   if (!gameConfig) return null
 
@@ -189,6 +189,17 @@ export function FilterBar({ totalCount, filteredCount }) {
             <option value="">All Locations</option>
             {locations.map(loc => (
               <option key={loc} value={loc}>{loc}</option>
+            ))}
+          </select>
+
+          <select
+            value={filterMethod}
+            onChange={e => setFilterMethod(e.target.value)}
+            className="border border-gray-300 dark:border-gray-600 rounded-lg px-2 py-1.5 text-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            <option value="">All Methods</option>
+            {methods.map(({ method, methodDisplay }) => (
+              <option key={method} value={method}>{methodDisplay}</option>
             ))}
           </select>
 

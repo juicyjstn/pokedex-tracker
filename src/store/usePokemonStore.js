@@ -50,6 +50,7 @@ export const usePokemonStore = create((set, get) => ({
   // ── Data ───────────────────────────────────────────────────────────────────
   pokemon:   [],
   locations: [],
+  methods:   [],
   loaded:    false,
 
   // ── User state ─────────────────────────────────────────────────────────────
@@ -63,6 +64,7 @@ export const usePokemonStore = create((set, get) => ({
   searchQuery:    '',
   filterType:     '',
   filterLocation: '',
+  filterMethod:   '',
   filterVersion:  '',
   filterCaught:   '',
   filterEggGroups: [],
@@ -83,10 +85,11 @@ export const usePokemonStore = create((set, get) => ({
       gameModules: GAME_MODULES[config.id] ?? null,
       pokemon:     [],
       locations:   [],
+      methods:     [],
       loaded:      false,
       caughtIds:   loadCaughtIds(config.localStorageKey),
       dexView:     'regional',
-      searchQuery: '', filterType: '', filterLocation: '',
+      searchQuery: '', filterType: '', filterLocation: '', filterMethod: '',
       filterVersion: '', filterCaught: '', filterEggGroups: [],
       sortBy: 'id', selectedId: null,
     })
@@ -94,7 +97,20 @@ export const usePokemonStore = create((set, get) => ({
     const loader = DATA_LOADERS[config.id]
     if (!loader) throw new Error(`No data loader for game: ${config.id}`)
     const { default: data } = await loader()
-    set({ pokemon: data.pokemon, locations: data.locations, loaded: true })
+
+    const methodMap = new Map()
+    data.pokemon.forEach(p => {
+      p.encounters?.forEach(e => {
+        if (e.method && !methodMap.has(e.method)) {
+          methodMap.set(e.method, e.methodDisplay || e.method)
+        }
+      })
+    })
+    const methods = [...methodMap.entries()]
+      .map(([method, methodDisplay]) => ({ method, methodDisplay }))
+      .sort((a, b) => a.methodDisplay.localeCompare(b.methodDisplay))
+
+    set({ pokemon: data.pokemon, locations: data.locations, methods, loaded: true })
   },
 
   goHome() {
@@ -129,6 +145,7 @@ export const usePokemonStore = create((set, get) => ({
   setSearch(q)          { set({ searchQuery: q }) },
   setFilterType(t)      { set({ filterType: t }) },
   setFilterLocation(l)  { set({ filterLocation: l }) },
+  setFilterMethod(m)    { set({ filterMethod: m }) },
   setFilterVersion(v)   { set({ filterVersion: v }) },
   setFilterCaught(c)    { set({ filterCaught: c }) },
   setFilterEggGroups(g) { set({ filterEggGroups: g }) },
@@ -138,7 +155,7 @@ export const usePokemonStore = create((set, get) => ({
 
   resetFilters() {
     set({
-      searchQuery: '', filterType: '', filterLocation: '',
+      searchQuery: '', filterType: '', filterLocation: '', filterMethod: '',
       filterVersion: '', filterCaught: '', filterEggGroups: [], sortBy: 'id',
     })
   },
@@ -177,7 +194,7 @@ export const usePokemonStore = create((set, get) => ({
 
   getFiltered() {
     const {
-      caughtIds, searchQuery, filterType, filterLocation,
+      caughtIds, searchQuery, filterType, filterLocation, filterMethod,
       filterVersion, filterCaught, filterEggGroups, sortBy, gameConfig, gameModules,
     } = get()
     const base = get().getActivePokemon()
@@ -191,6 +208,10 @@ export const usePokemonStore = create((set, get) => ({
       if (filterType && !p.types.includes(filterType)) return false
       if (filterLocation) {
         const has = p.encounters.some(e => e.location === filterLocation || e.area === filterLocation)
+        if (!has) return false
+      }
+      if (filterMethod) {
+        const has = p.encounters.some(e => e.method === filterMethod)
         if (!has) return false
       }
       if (filterVersion) {
