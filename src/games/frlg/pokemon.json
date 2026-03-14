@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T17:55:19.039Z",
+  "generatedAt": "2026-03-14T01:10:21.975Z",
   "kantoCount": 151,
   "nationalCount": 60,
   "locations": [
@@ -25,6 +25,7 @@
     "Cerulean City",
     "Cinnabar Island",
     "Cinnabar Island Cinnabar Lab",
+    "Cinnabar Island Lab",
     "Digletts Cave",
     "Dilford Chamber",
     "Five Island",
@@ -95,6 +96,7 @@
     "Route 16",
     "Route 17",
     "Route 18",
+    "Route 18 Gate",
     "Route 2",
     "Route 2 South Towards Viridian City",
     "Route 22",
@@ -132,6 +134,7 @@
     "Three Isle Port",
     "Trainer Tower",
     "Treasure Beach",
+    "Underground Path (Route 5)",
     "Vermilion City",
     "Viapos Chamber",
     "Victory Road 2 (1F)",
@@ -5952,6 +5955,17 @@
           "maxLevel": 30,
           "chance": 20,
           "versions": "both"
+        },
+        {
+          "area": "underground-path-route-5",
+          "location": "Underground Path (Route 5)",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "leafgreen",
+          "notes": "Trade a Nidoran♂ to NPC in Underground Path entrance (LeafGreen)"
         }
       ],
       "flavorText": {
@@ -6198,6 +6212,17 @@
           "maxLevel": 30,
           "chance": 10,
           "versions": "leafgreen"
+        },
+        {
+          "area": "route-11",
+          "location": "Route 11",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "leafgreen",
+          "notes": "Trade a Nidorino to NPC on Route 11 (LeafGreen)"
         }
       ],
       "flavorText": {
@@ -6682,6 +6707,17 @@
           "maxLevel": 30,
           "chance": 20,
           "versions": "both"
+        },
+        {
+          "area": "underground-path-route-5",
+          "location": "Underground Path (Route 5)",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "firered",
+          "notes": "Trade a Nidoran♀ to NPC in Underground Path entrance (FireRed)"
         }
       ],
       "flavorText": {
@@ -6924,6 +6960,17 @@
           "maxLevel": 30,
           "chance": 10,
           "versions": "firered"
+        },
+        {
+          "area": "route-11",
+          "location": "Route 11",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "firered",
+          "notes": "Trade a Nidorina to NPC on Route 11 (FireRed)"
         }
       ],
       "flavorText": {
@@ -22196,6 +22243,17 @@
           "maxLevel": 47,
           "chance": 20,
           "versions": "both"
+        },
+        {
+          "area": "cinnabar-island-pokemon-lab",
+          "location": "Cinnabar Island Lab",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "both",
+          "notes": "Trade a Ponyta to scientist in Cinnabar Lab"
         }
       ],
       "flavorText": {
@@ -26591,6 +26649,17 @@
           "maxLevel": 34,
           "chance": 100,
           "versions": "both"
+        },
+        {
+          "area": "cinnabar-island-pokemon-lab",
+          "location": "Cinnabar Island Lab",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "both",
+          "notes": "Trade a Raichu to scientist in Cinnabar Lab"
         }
       ],
       "flavorText": {
@@ -28110,7 +28179,30 @@
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/108.png",
       "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/108.ogg",
       "exclusivity": "both",
-      "encounters": [],
+      "encounters": [
+        {
+          "area": "route-18",
+          "location": "Route 18 Gate",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "firered",
+          "notes": "Trade a Golduck to NPC in Route 18 gate (FireRed)"
+        },
+        {
+          "area": "route-18",
+          "location": "Route 18 Gate",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "leafgreen",
+          "notes": "Trade a Slowbro to NPC in Route 18 gate (LeafGreen)"
+        }
+      ],
       "flavorText": {
         "firered": "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
         "leafgreen": "Its tongue can be extended like a chameleon’s. It leaves a tingling sensation when it licks enemies."
@@ -29619,6 +29711,17 @@
           "maxLevel": 35,
           "chance": 20,
           "versions": "both"
+        },
+        {
+          "area": "cinnabar-island-pokemon-lab",
+          "location": "Cinnabar Island Lab",
+          "method": "trade",
+          "methodDisplay": "In-Game Trade",
+          "minLevel": null,
+          "maxLevel": null,
+          "chance": null,
+          "versions": "both",
+          "notes": "Trade a Venonat to scientist in Cinnabar Lab"
         }
       ],
       "flavorText": {
@@ -33630,17 +33733,6 @@
           "maxLevel": 25,
           "chance": 4,
           "versions": "both"
-        },
-        {
-          "area": "route-16",
-          "location": "Route 16",
-          "method": "trade",
-          "methodDisplay": "In-Game Trade",
-          "minLevel": null,
-          "maxLevel": null,
-          "chance": null,
-          "versions": "firered",
-          "notes": "Trade a Slowpoke to NPC on Route 16 (FireRed)"
         }
       ],
       "flavorText": {

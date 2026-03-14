@@ -188,7 +188,9 @@ async function fetchPokemon(id, total) {
       const existing = encounters.find(
         e =>
           (e.area === m.area || e.area.startsWith(m.area + '-')) &&
-          normalise(e.method) === normalise(m.method),
+          normalise(e.method) === normalise(m.method) &&
+          // Don't merge version-specific manual entries with different versions
+          (m.versions === 'both' || e.versions === 'both' || e.versions === m.versions),
       )
       if (existing) {
         if (m.notes && !existing.notes) existing.notes = m.notes

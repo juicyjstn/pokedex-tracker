@@ -58,18 +58,39 @@ export const manualData = {
   },
 
   // --- IN-GAME TRADES ---
+  29: { // Nidoran♀
+    obtainMethods: [{ location: 'Underground Path (Route 5)', area: 'underground-path-route-5', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'leafgreen', notes: "Trade a Nidoran♂ to NPC in Underground Path entrance (LeafGreen)" }],
+  },
+  30: { // Nidorina
+    obtainMethods: [{ location: 'Route 11', area: 'route-11', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'leafgreen', notes: "Trade a Nidorino to NPC on Route 11 (LeafGreen)" }],
+  },
+  32: { // Nidoran♂
+    obtainMethods: [{ location: 'Underground Path (Route 5)', area: 'underground-path-route-5', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'firered', notes: "Trade a Nidoran♀ to NPC in Underground Path entrance (FireRed)" }],
+  },
+  33: { // Nidorino
+    obtainMethods: [{ location: 'Route 11', area: 'route-11', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'firered', notes: "Trade a Nidorina to NPC on Route 11 (FireRed)" }],
+  },
   83: { // Farfetch'd
     obtainMethods: [{ location: 'Vermilion City', area: 'vermilion-city', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade a Spearow to NPC in Vermilion City house" }],
+  },
+  86: { // Seel
+    obtainMethods: [{ location: 'Cinnabar Island Lab', area: 'cinnabar-island-pokemon-lab', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade a Ponyta to scientist in Cinnabar Lab" }],
+  },
+  101: { // Electrode
+    obtainMethods: [{ location: 'Cinnabar Island Lab', area: 'cinnabar-island-pokemon-lab', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade a Raichu to scientist in Cinnabar Lab" }],
+  },
+  108: { // Lickitung
+    obtainMethods: [
+      { location: 'Route 18 Gate', area: 'route-18', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'firered', notes: "Trade a Golduck to NPC in Route 18 gate (FireRed)" },
+      { location: 'Route 18 Gate', area: 'route-18', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'leafgreen', notes: "Trade a Slowbro to NPC in Route 18 gate (LeafGreen)" },
+    ],
+  },
+  114: { // Tangela
+    obtainMethods: [{ location: 'Cinnabar Island Lab', area: 'cinnabar-island-pokemon-lab', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade a Venonat to scientist in Cinnabar Lab" }],
   },
   122: { // Mr. Mime
     obtainMethods: [{ location: 'Route 2', area: 'route-2', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade an Abra to NPC outside Diglett's Cave entrance on Route 2" }],
   },
-  128: { // Tauros — FR: get via trade
-    obtainMethods: [
-      { location: 'Route 16', area: 'route-16', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'firered', notes: "Trade a Slowpoke to NPC on Route 16 (FireRed)" },
-    ],
-  },
-  // Jynx trade
   124: { // Jynx
     obtainMethods: [{ location: 'Cerulean City', area: 'cerulean-city', method: 'trade', methodDisplay: 'In-Game Trade', versions: 'both', notes: "Trade a Poliwhirl to NPC in Cerulean City house" }],
   },
