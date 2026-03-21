@@ -41335,6 +41335,194 @@
       "dex": "national"
     },
     {
+      "id": 169,
+      "name": "crobat",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+      "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/169.ogg",
+      "exclusivity": "both",
+      "encounters": [],
+      "flavorText": {},
+      "abilities": [
+        {
+          "name": "Inner Focus",
+          "description": "Prevents flinching."
+        }
+      ],
+      "eggGroups": [
+        "flying"
+      ],
+      "stats": {
+        "hp": 85,
+        "atk": 90,
+        "def": 80,
+        "spa": 70,
+        "spd": 80,
+        "spe": 130,
+        "bst": 535
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "Supersonic",
+            "level": 1
+          },
+          {
+            "move": "Screech",
+            "level": 1
+          },
+          {
+            "move": "Leech Life",
+            "level": 1
+          },
+          {
+            "move": "Astonish",
+            "level": 1
+          },
+          {
+            "move": "Astonish",
+            "level": 6
+          },
+          {
+            "move": "Supersonic",
+            "level": 11
+          },
+          {
+            "move": "Bite",
+            "level": 16
+          },
+          {
+            "move": "Wing Attack",
+            "level": 21
+          },
+          {
+            "move": "Confuse Ray",
+            "level": 28
+          },
+          {
+            "move": "Air Cutter",
+            "level": 35
+          },
+          {
+            "move": "Mean Look",
+            "level": 42
+          },
+          {
+            "move": "Poison Fang",
+            "level": 49
+          },
+          {
+            "move": "Haze",
+            "level": 56
+          }
+        ],
+        "tmhm": [
+          {
+            "label": "HM02",
+            "move": "Fly"
+          },
+          {
+            "label": "TM06",
+            "move": "Toxic"
+          },
+          {
+            "label": "TM10",
+            "move": "Hidden Power"
+          },
+          {
+            "label": "TM11",
+            "move": "Sunny Day"
+          },
+          {
+            "label": "TM12",
+            "move": "Taunt"
+          },
+          {
+            "label": "TM15",
+            "move": "Hyper Beam"
+          },
+          {
+            "label": "TM17",
+            "move": "Protect"
+          },
+          {
+            "label": "TM18",
+            "move": "Rain Dance"
+          },
+          {
+            "label": "TM19",
+            "move": "Giga Drain"
+          },
+          {
+            "label": "TM21",
+            "move": "Frustration"
+          },
+          {
+            "label": "TM27",
+            "move": "Return"
+          },
+          {
+            "label": "TM30",
+            "move": "Shadow Ball"
+          },
+          {
+            "label": "TM32",
+            "move": "Double Team"
+          },
+          {
+            "label": "TM36",
+            "move": "Sludge Bomb"
+          },
+          {
+            "label": "TM40",
+            "move": "Aerial Ace"
+          },
+          {
+            "label": "TM41",
+            "move": "Torment"
+          },
+          {
+            "label": "TM42",
+            "move": "Facade"
+          },
+          {
+            "label": "TM43",
+            "move": "Secret Power"
+          },
+          {
+            "label": "TM44",
+            "move": "Rest"
+          },
+          {
+            "label": "TM45",
+            "move": "Attract"
+          },
+          {
+            "label": "TM46",
+            "move": "Thief"
+          },
+          {
+            "label": "TM47",
+            "move": "Steel Wing"
+          },
+          {
+            "label": "TM49",
+            "move": "Snatch"
+          }
+        ],
+        "tutor": [
+          "Double Edge",
+          "Mimic",
+          "Substitute"
+        ],
+        "egg": []
+      },
+      "dex": "national"
+    },
+    {
       "id": 175,
       "name": "togepi",
       "types": [

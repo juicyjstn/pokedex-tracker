@@ -101,6 +101,7 @@ export const nationalEvolutionIds = [
   6,   // Charizard    ← Charmeleon (#5)   [Charmeleon from Charcoal salesman trade in Emerald? Skip for now]
   // Gen 2 Pokémon
   162, // Furret      ← Sentret
+  169, // Crobat      ← Golbat (#42)
   166, // Ledian      ← Ledyba
   168, // Ariados     ← Spinarak
   176, // Togetic     ← Togepi [Togepi obtainable via trade or events]
