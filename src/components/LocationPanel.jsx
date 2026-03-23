@@ -60,13 +60,13 @@ export function LocationPanel() {
 
   const [encounterOpen, setEncounterOpen] = useState(true)
   const [dexOpen, setDexOpen] = useState(true)
-  const [learnsetOpen, setLearnsetOpen] = useState(false)
+  const [learnsetOpen, setLearnsetOpen] = useState(true)
 
   // Reset sections when switching Pokémon
   useEffect(() => {
     setEncounterOpen(true)
     setDexOpen(true)
-    setLearnsetOpen(false)
+    setLearnsetOpen(true)
   }, [selectedId])
 
   if (!p) return null
