@@ -118,6 +118,7 @@ export const manualData = {
 // The fetch script will always include these in the national dex.
 export const nationalEvolutionIds = [
   162, // Furret      ← Sentret (#161)
+  169, // Crobat      ← Golbat (#42)
   166, // Ledian      ← Ledyba (#165)
   168, // Ariados     ← Spinarak (#167)
   176, // Togetic     ← Togepi (#175)

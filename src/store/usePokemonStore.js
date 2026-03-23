@@ -177,7 +177,36 @@ export const usePokemonStore = create((set, get) => ({
   },
 
   getEvolutionChain(id) {
-    return get().gameModules?.evos.getFullEvolutionChain(id) ?? null
+    const { gameModules, dexView, gameConfig, pokemon } = get()
+    const chain = gameModules?.evos.getFullEvolutionChain(id) ?? null
+    if (!chain || dexView === 'national') return chain
+
+    // In regional view, truncate chain members not in the regional dex
+    const regionalId = gameConfig?.regionalDex?.id
+    if (!regionalId) return chain
+
+    if (chain.type === 'linear') {
+      const result = [chain.chain[0]]
+      for (let i = 1; i + 1 < chain.chain.length; i += 2) {
+        const pkmnId = chain.chain[i + 1]
+        const pkmn = pokemon.find(p => p.id === pkmnId)
+        if (!pkmn || pkmn.dex !== regionalId) break
+        result.push(chain.chain[i], pkmnId)
+      }
+      if (result.length <= 1) return null
+      return { type: 'linear', chain: result }
+    }
+
+    if (chain.type === 'branching') {
+      const filteredBranches = chain.branches.filter(b => {
+        const pkmn = pokemon.find(p => p.id === b.id)
+        return pkmn?.dex === regionalId
+      })
+      if (filteredBranches.length === 0) return null
+      return { type: 'branching', baseId: chain.baseId, branches: filteredBranches }
+    }
+
+    return chain
   },
 
   getEvolutionLabel(evo) {
