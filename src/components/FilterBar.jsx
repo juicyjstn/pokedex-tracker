@@ -146,7 +146,7 @@ export function FilterBar({ totalCount, filteredCount }) {
           </div>
         </div>
 
-        {/* Row 2: Search + Sort + count */}
+        {/* Row 2: Search + Sort */}
         <div className={`flex gap-2 flex-wrap items-center ${filtersOpen ? '' : 'hidden'}`}>
           <input
             type="search"
@@ -169,22 +169,6 @@ export function FilterBar({ totalCount, filteredCount }) {
             )}
           </select>
 
-          <div className="ml-auto text-sm text-gray-500 dark:text-gray-400">
-            {isFiltered ? (
-              <span>{filteredCount} / {totalCount} shown</span>
-            ) : (
-              <span>{totalCount} Pokémon</span>
-            )}
-          </div>
-
-          {isFiltered && (
-            <button
-              onClick={resetFilters}
-              className="text-xs text-red-500 hover:text-red-700 border border-red-200 hover:border-red-400 rounded px-2 py-1 transition-colors"
-            >
-              Reset filters
-            </button>
-          )}
         </div>
 
         {/* Row 3: Filters */}
