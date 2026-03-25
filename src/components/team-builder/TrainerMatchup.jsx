@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { TrainerCard } from './TrainerCard'
 import { TYPE_COLORS, TYPE_TEXT } from '../typeColors'
@@ -19,8 +19,15 @@ export function TrainerMatchup() {
 
   const trainers = useTeamStore(s => s.trainers)
   const moveDb = useTeamStore(s => s.moves)
-  const team = useTeamStore(s => s.getActiveTeam())
-  const teamPokemon = useTeamStore(s => s.getTeamPokemon())
+  const teams = useTeamStore(s => s.teams)
+  const activeTeamId = useTeamStore(s => s.activeTeamId)
+  const pokemon = useTeamStore(s => s.pokemon)
+
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const teamPokemon = useMemo(() => {
+    if (!team) return []
+    return team.members.map(m => m ? pokemon.find(p => p.id === m.pokemonId) ?? null : null)
+  }, [team, pokemon])
 
   const members = team?.members || []
   const hasMoves = members.some(m => m && m.moves.some(Boolean))
