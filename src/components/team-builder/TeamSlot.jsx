@@ -1,11 +1,15 @@
+import { useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { NatureSelect } from './NatureSelect'
 import { TYPE_COLORS } from '../typeColors'
 
 export function TeamSlot({ index }) {
-  const { selectedSlot, selectSlot, removePokemon, setNature, getActiveTeam, getTeamPokemon } = useTeamStore()
-  const team = getActiveTeam()
-  const teamPokemon = getTeamPokemon()
+  const { selectedSlot, selectSlot, removePokemon, setNature, teams, activeTeamId, pokemon } = useTeamStore()
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const teamPokemon = useMemo(() => {
+    if (!team) return []
+    return team.members.map(m => m ? pokemon.find(p => p.id === m.pokemonId) ?? null : null)
+  }, [team, pokemon])
 
   const member = team?.members[index]
   const pkmn = teamPokemon[index]

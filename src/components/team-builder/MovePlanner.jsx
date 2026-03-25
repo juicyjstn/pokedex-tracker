@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { MoveRow } from './MoveRow'
 import { TYPE_COLORS, TYPE_TEXT } from '../typeColors'
@@ -12,13 +12,16 @@ const SOURCE_FILTERS = [
 ]
 
 export function MovePlanner() {
-  const { selectedSlot, getActiveTeam, getTeamPokemon, getAvailableMoves, setMove, clearMove } = useTeamStore()
+  const { selectedSlot, teams, activeTeamId, pokemon, moves: moveDb, evolutions, setMove, clearMove } = useTeamStore()
   const [editingMoveIdx, setEditingMoveIdx] = useState(null)
   const [moveSearch, setMoveSearch] = useState('')
   const [sourceFilter, setSourceFilter] = useState('')
 
-  const team = getActiveTeam()
-  const teamPokemon = getTeamPokemon()
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const teamPokemon = useMemo(() => {
+    if (!team) return []
+    return team.members.map(m => m ? pokemon.find(p => p.id === m.pokemonId) ?? null : null)
+  }, [team, pokemon])
 
   if (selectedSlot === null || !team?.members[selectedSlot]) return null
 
@@ -26,7 +29,7 @@ export function MovePlanner() {
   const pkmn = teamPokemon[selectedSlot]
   if (!pkmn) return null
 
-  const availableMoves = getAvailableMoves(selectedSlot)
+  const availableMoves = useTeamStore.getState().getAvailableMoves(selectedSlot)
   const assignedMoves = new Set(member.moves.filter(Boolean))
 
   // Filter available moves

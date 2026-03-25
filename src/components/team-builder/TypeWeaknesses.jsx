@@ -1,11 +1,19 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { TYPES, getTeamWeaknesses, getTeamResistances } from '../../data/type-chart'
 import { TYPE_COLORS, TYPE_TEXT } from '../typeColors'
 
 export function TypeWeaknesses() {
   const [open, setOpen] = useState(true)
-  const teamPokemon = useTeamStore(s => s.getTeamPokemon())
+  const teams = useTeamStore(s => s.teams)
+  const activeTeamId = useTeamStore(s => s.activeTeamId)
+  const pokemon = useTeamStore(s => s.pokemon)
+
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const teamPokemon = useMemo(() => {
+    if (!team) return []
+    return team.members.map(m => m ? pokemon.find(p => p.id === m.pokemonId) ?? null : null)
+  }, [team, pokemon])
 
   const pokemonList = teamPokemon.filter(Boolean)
   if (pokemonList.length === 0) return null

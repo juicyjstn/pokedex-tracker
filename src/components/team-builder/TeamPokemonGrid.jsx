@@ -1,14 +1,24 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { TeamPokemonCard } from './TeamPokemonCard'
 import { TYPES } from '../../data/type-chart'
 
 export function TeamPokemonGrid() {
-  const { addPokemon, getActiveTeam, getFilteredPokemon, searchQuery, setSearch, filterType, setFilterType } = useTeamStore()
+  const { addPokemon, teams, activeTeamId, pokemon, searchQuery, setSearch, filterType, setFilterType } = useTeamStore()
   const [open, setOpen] = useState(true)
 
-  const team = getActiveTeam()
-  const filtered = getFilteredPokemon()
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const filtered = useMemo(() => {
+    return pokemon.filter(p => {
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase()
+        const numMatch = String(p.id).padStart(3, '0').includes(q) || String(p.id).includes(q)
+        if (!p.name.includes(q) && !numMatch) return false
+      }
+      if (filterType && !p.types.includes(filterType)) return false
+      return true
+    })
+  }, [pokemon, searchQuery, filterType])
   const teamIds = new Set((team?.members || []).filter(Boolean).map(m => m.pokemonId))
   const teamFull = (team?.members || []).filter(Boolean).length >= 6
 

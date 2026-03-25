@@ -1,10 +1,18 @@
+import { useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { applyNature, STAT_LABELS } from '../../data/natures'
 import { TYPE_COLORS } from '../typeColors'
 
 export function TeamSummary() {
-  const team = useTeamStore(s => s.getActiveTeam())
-  const teamPokemon = useTeamStore(s => s.getTeamPokemon())
+  const teams = useTeamStore(s => s.teams)
+  const activeTeamId = useTeamStore(s => s.activeTeamId)
+  const pokemon = useTeamStore(s => s.pokemon)
+
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
+  const teamPokemon = useMemo(() => {
+    if (!team) return []
+    return team.members.map(m => m ? pokemon.find(p => p.id === m.pokemonId) ?? null : null)
+  }, [team, pokemon])
 
   const members = (team?.members || []).filter(Boolean)
   const pokemonList = teamPokemon.filter(Boolean)

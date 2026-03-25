@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useTeamStore } from '../../store/useTeamStore'
 import { TYPES, getTeamOffensiveCoverage } from '../../data/type-chart'
 import { TYPE_COLORS, TYPE_TEXT } from '../typeColors'
 
 export function TypeCoverage() {
   const [open, setOpen] = useState(true)
-  const team = useTeamStore(s => s.getActiveTeam())
+  const teams = useTeamStore(s => s.teams)
+  const activeTeamId = useTeamStore(s => s.activeTeamId)
   const moves = useTeamStore(s => s.moves)
+
+  const team = useMemo(() => teams.find(t => t.id === activeTeamId) ?? null, [teams, activeTeamId])
 
   const members = (team?.members || []).filter(Boolean)
   if (members.length === 0) return null
