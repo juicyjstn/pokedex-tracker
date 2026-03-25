@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { usePokemonStore } from './store/usePokemonStore'
 import { HomeScreen } from './components/HomeScreen'
 import { Sidebar } from './components/Sidebar'
@@ -6,13 +6,15 @@ import { FilterBar } from './components/FilterBar'
 import { PokedexGrid } from './components/PokedexGrid'
 import { LocationPanel } from './components/LocationPanel'
 
+const TeamBuilderPage = lazy(() => import('./components/team-builder/TeamBuilderPage'))
+
 export default function App() {
   const {
     gameConfig, loaded,
     caughtIds, selectedId, clearSelection,
     getFiltered, getActivePokemon,
     dexView, darkMode, toggleDarkMode,
-    filterVersion,
+    filterVersion, teamBuilderGame,
   } = usePokemonStore()
 
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -23,8 +25,26 @@ export default function App() {
   }, [darkMode])
 
   // ── Home screen ────────────────────────────────────────────────────────────
-  if (!gameConfig) {
+  if (!gameConfig && !teamBuilderGame) {
     return <HomeScreen />
+  }
+
+  // ── Team Builder ──────────────────────────────────────────────────────────
+  if (teamBuilderGame) {
+    return (
+      <Suspense
+        fallback={
+          <div className="flex items-center justify-center h-screen text-gray-500 dark:text-gray-400 dark:bg-gray-900">
+            <div className="text-center">
+              <div className="text-5xl mb-4 animate-bounce">⏳</div>
+              <p>Loading Team Builder...</p>
+            </div>
+          </div>
+        }
+      >
+        <TeamBuilderPage config={teamBuilderGame} />
+      </Suspense>
+    )
   }
 
   // ── Loading spinner ────────────────────────────────────────────────────────

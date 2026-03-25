@@ -57,6 +57,9 @@ export const usePokemonStore = create((set, get) => ({
   caughtIds: new Set(),
   darkMode:  loadDarkMode(),
 
+  // ── Team Builder ───────────────────────────────────────────────────────────
+  teamBuilderGame: null,   // null | gameConfig object
+
   // ── View ───────────────────────────────────────────────────────────────────
   dexView: 'regional',   // 'regional' | 'national'
 
@@ -116,7 +119,17 @@ export const usePokemonStore = create((set, get) => ({
   goHome() {
     const { gameConfig, caughtIds } = get()
     if (gameConfig) saveCaughtIds(gameConfig.localStorageKey, caughtIds)
-    set({ gameConfig: null, gameModules: null, pokemon: [], locations: [], loaded: false, selectedId: null })
+    set({ gameConfig: null, gameModules: null, pokemon: [], locations: [], loaded: false, selectedId: null, teamBuilderGame: null })
+  },
+
+  openTeamBuilder(config) {
+    const { gameConfig, caughtIds } = get()
+    if (gameConfig) saveCaughtIds(gameConfig.localStorageKey, caughtIds)
+    set({ gameConfig: null, gameModules: null, pokemon: [], locations: [], loaded: false, selectedId: null, teamBuilderGame: config })
+  },
+
+  closeTeamBuilder() {
+    set({ teamBuilderGame: null })
   },
 
   toggleCaught(id) {

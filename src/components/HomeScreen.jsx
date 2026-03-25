@@ -18,7 +18,7 @@ const GAME_TOTALS = {
 }
 
 export function HomeScreen() {
-  const { loadGame, darkMode, toggleDarkMode } = usePokemonStore()
+  const { loadGame, openTeamBuilder, darkMode, toggleDarkMode } = usePokemonStore()
   const [showImport, setShowImport] = useState(false)
   const base = import.meta.env.BASE_URL
 
@@ -109,6 +109,46 @@ export function HomeScreen() {
                       </p>
                     </div>
                   )}
+                </div>
+              </button>
+            )
+          })}
+        </div>
+
+        {/* Team Builder cards */}
+        <h2 className="text-sm font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wider mt-8 mb-3 w-full max-w-2xl">
+          Team Builder
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full max-w-2xl">
+          {GAMES.map(game => {
+            const cover = `${base}${game.covers['']}`
+            return (
+              <button
+                key={`team-${game.id}`}
+                onClick={() => openTeamBuilder(game)}
+                className="group rounded-2xl overflow-hidden bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-md hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5 text-left focus:outline-none focus:ring-2 focus:ring-blue-400"
+              >
+                {/* Cover image with overlay */}
+                <div className="relative h-28 overflow-hidden">
+                  <img
+                    src={cover}
+                    alt={`${game.title} cover`}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 brightness-75"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <span className="absolute top-2 right-2 bg-blue-600/80 text-white text-[10px] font-bold px-2 py-0.5 rounded-full backdrop-blur-sm">
+                    Team Builder
+                  </span>
+                </div>
+
+                {/* Card body */}
+                <div className="px-4 py-3">
+                  <h2 className="font-bold text-gray-900 dark:text-gray-100 text-base leading-tight">
+                    {game.shortName} Team Builder
+                  </h2>
+                  <p className="text-[11px] text-gray-400 dark:text-gray-500 mt-0.5">
+                    Plan your team, moves &amp; matchups
+                  </p>
                 </div>
               </button>
             )
